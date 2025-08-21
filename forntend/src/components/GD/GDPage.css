@@ -1,0 +1,83 @@
+.gd-container {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 800px;
+  margin: auto;
+  background: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.gd-header h2 {
+  color: #2c3e50;
+}
+
+.gd-header p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.gd-controls {
+  margin: 20px 0;
+}
+
+.raise-btn, .exit-btn, .ai-btn, .submit-btn {
+  padding: 10px 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.raise-btn { background: #3498db; color: white; }
+.exit-btn { background: #e74c3c; color: white; }
+.ai-btn { background: #2ecc71; color: white; }
+.submit-btn { background: #9b59b6; color: white; }
+
+.gd-input textarea {
+  width: 100%;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.gd-chat {
+  margin-top: 20px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.gd-message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.gd-message.user {
+  background: #dff9fb;
+}
+
+.gd-message.ai {
+  background: #f6e58d;
+}
+
+.score {
+  font-weight: bold;
+  color: #2c3e50;
+  margin-left: 5px;
+}
+
+.gd-scores ul {
+  padding-left: 20px;
+}
+
+.gd-scores li {
+  margin-bottom: 5px;
+  font-weight: bold;
+}

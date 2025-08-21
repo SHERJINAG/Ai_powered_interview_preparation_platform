@@ -1,0 +1,55 @@
+/* Styling for the Interview Preparation Component */
+
+.interview-prep-container {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 40px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin: 20px auto;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #007bff;
+  margin-bottom: 30px;
+}
+
+.prep-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.prep-item {
+  margin-bottom: 15px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.prep-item:hover {
+  transform: scale(1.05);
+  background-color: #e0f7fa;
+}
+
+.prep-link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #007bff;
+  font-weight: bold;
+  padding: 15px;
+  display: block;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.prep-link:hover {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.prep-item:last-child {
+  margin-bottom: 0;
+}

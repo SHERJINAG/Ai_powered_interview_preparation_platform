@@ -1,0 +1,17 @@
+[
+  {
+    "question": "A bag contains 3 red balls, 5 blue balls, and 2 green balls. What is the probability of drawing a red ball?",
+    "options": ["A) 3/10", "B) 1/5", "C) 3/8", "D) 1/3"],
+    "answer": "A) 3/10"
+  },
+  {
+    "question": "If two dice are rolled, what is the probability of getting a sum of 7?",
+    "options": ["A) 1/12", "B) 1/6", "C) 1/8", "D) 1/9"],
+    "answer": "B) 1/6"
+  },
+  {
+    "question": "A coin is flipped 3 times. What is the probability of getting at least one heads?",
+    "options": ["A) 1/8", "B) 7/8", "C) 3/4", "D) 1/2"],
+    "answer": "B) 7/8"
+  }
+]

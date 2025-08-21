@@ -1,0 +1,39 @@
+.gamified-container {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f7f9fc;
+}
+
+.gamified-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.subject-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.subject-card {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.subject-card:hover {
+  transform: scale(1.05);
+}
+
+.subject-card h2 {
+  font-size: 1.4rem;
+  color: #5c6bc0;
+  margin-bottom: 0.5rem;
+}
+
+.subject-card p {
+  color: #555;
+}

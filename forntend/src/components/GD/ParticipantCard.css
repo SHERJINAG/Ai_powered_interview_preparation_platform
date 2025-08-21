@@ -1,0 +1,38 @@
+.participant-card {
+  width: 160px;
+  height: 200px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.participant-card:hover {
+  transform: scale(1.05);
+}
+
+.participant-card.speaking {
+  border: 2px solid #34a853;
+  box-shadow: 0 0 20px rgba(52,168,83,0.4);
+}
+
+.avatar-circle {
+  background-color: #dfe1e5;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.status {
+  font-size: 14px;
+  color: #34a853;
+  font-weight: bold;
+}

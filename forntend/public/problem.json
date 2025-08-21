@@ -1,0 +1,3037 @@
+[
+  {
+    "title": "Two Sum",
+    "url": "https://leetcode.com/problems/two-sum/",
+    "approach": "HashMap lookup",
+    "data_structures": ["Array", "HashMap"],
+    "concepts": ["Brute Force", "Hashing", "Two Pointers"]
+  },
+  {
+    "title": "Best Time to Buy and Sell Stock",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "approach": "Single Pass with minPrice tracking",
+    "data_structures": ["Array"],
+    "concepts": ["Sliding Window", "Greedy"]
+  },
+  {
+    "title": "Valid Parentheses",
+    "url": "https://leetcode.com/problems/valid-parentheses/",
+    "approach": "Stack matching opening and closing",
+    "data_structures": ["Stack"],
+    "concepts": ["Stack", "String", "Simulation"]
+  },
+  {
+    "title": "Merge Two Sorted Lists",
+    "url": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "approach": "Two Pointer Iteration",
+    "data_structures": ["Linked List"],
+    "concepts": ["Linked List", "Sorting", "Two Pointers"]
+  },
+  {
+    "title": "Remove Duplicates from Sorted Array",
+    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+    "approach": "Two Pointer overwrite approach",
+    "data_structures": ["Array"],
+    "concepts": ["Two Pointers", "In-Place"]
+  },
+  {
+    "title": "Majority Element",
+    "url": "https://leetcode.com/problems/majority-element/",
+    "approach": "Boyer-Moore Voting Algorithm",
+    "data_structures": ["Array"],
+    "concepts": ["Counting", "Greedy"]
+  },
+  {
+    "title": "Move Zeroes",
+    "url": "https://leetcode.com/problems/move-zeroes/",
+    "approach": "Two Pointers",
+    "data_structures": ["Array"],
+    "concepts": ["Two Pointers", "In-Place"]
+  },
+  {
+    "title": "Climbing Stairs",
+    "url": "https://leetcode.com/problems/climbing-stairs/",
+    "approach": "Dynamic Programming (Fibonacci)",
+    "data_structures": ["Array"],
+    "concepts": ["DP", "Recursion", "Memoization"]
+  },
+  {
+    "title": "Valid Anagram",
+    "url": "https://leetcode.com/problems/valid-anagram/",
+    "approach": "Character Frequency Map",
+    "data_structures": ["HashMap"],
+    "concepts": ["Hashing", "String Manipulation"]
+  },
+  {
+    "title": "Longest Substring Without Repeating Characters",
+    "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "approach": "Sliding Window with Set",
+    "data_structures": ["Set", "Array"],
+    "concepts": ["Sliding Window", "HashSet"]
+  },
+  {
+    "title": "Palindrome Number",
+    "url": "https://leetcode.com/problems/palindrome-number/",
+    "approach": "Reverse Half of the Number",
+    "data_structures": ["Integer"],
+    "concepts": ["Math", "Palindrome"]
+  },
+  {
+    "title": "Implement strStr()",
+    "url": "https://leetcode.com/problems/implement-strstr/",
+    "approach": "Substring Matching",
+    "data_structures": ["String"],
+    "concepts": ["Brute Force", "String Matching"]
+  },
+  {
+    "title": "Search Insert Position",
+    "url": "https://leetcode.com/problems/search-insert-position/",
+    "approach": "Binary Search",
+    "data_structures": ["Array"],
+    "concepts": ["Binary Search"]
+  },
+  {
+    "title": "Maximum Subarray",
+    "url": "https://leetcode.com/problems/maximum-subarray/",
+    "approach": "Kadane’s Algorithm",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming", "Greedy"]
+  },
+  {
+    "title": "Length of Last Word",
+    "url": "https://leetcode.com/problems/length-of-last-word/",
+    "approach": "Trim and Count",
+    "data_structures": ["String"],
+    "concepts": ["String Traversal"]
+  },
+  {
+    "title": "Plus One",
+    "url": "https://leetcode.com/problems/plus-one/",
+    "approach": "Iterate from end with carry",
+    "data_structures": ["Array"],
+    "concepts": ["Math", "Array Traversal"]
+  },
+  {
+    "title": "Add Binary",
+    "url": "https://leetcode.com/problems/add-binary/",
+    "approach": "Manual binary addition with carry",
+    "data_structures": ["String"],
+    "concepts": ["Binary Math", "String Manipulation"]
+  },
+  {
+    "title": "Intersection of Two Arrays II",
+    "url": "https://leetcode.com/problems/intersection-of-two-arrays-ii/",
+    "approach": "HashMap Counting",
+    "data_structures": ["Array", "HashMap"],
+    "concepts": ["Hashing", "Two Pointers"]
+  },
+  {
+    "title": "Missing Number",
+    "url": "https://leetcode.com/problems/missing-number/",
+    "approach": "Sum Formula or XOR Method",
+    "data_structures": ["Array"],
+    "concepts": ["Math", "Bit Manipulation"]
+  },
+  {
+    "title": "Reverse String",
+    "url": "https://leetcode.com/problems/reverse-string/",
+    "approach": "Two Pointer Swap",
+    "data_structures": ["Array"],
+    "concepts": ["Two Pointers", "String Manipulation"]
+  },
+
+  {
+    "title": "Reverse Integer",
+    "url": "https://leetcode.com/problems/reverse-integer/",
+    "approach": "Pop and Push digits, check overflow",
+    "data_structures": ["Integer"],
+    "concepts": ["Math", "Edge Cases", "Overflow Handling"]
+  },
+  {
+    "title": "Container With Most Water",
+    "url": "https://leetcode.com/problems/container-with-most-water/",
+    "approach": "Two Pointers",
+    "data_structures": ["Array"],
+    "concepts": ["Two Pointers", "Greedy"]
+  },
+  {
+    "title": "Roman to Integer",
+    "url": "https://leetcode.com/problems/roman-to-integer/",
+    "approach": "Character Traversal with Value Mapping",
+    "data_structures": ["HashMap", "String"],
+    "concepts": ["Mapping", "Greedy", "String"]
+  },
+  {
+    "title": "Integer to Roman",
+    "url": "https://leetcode.com/problems/integer-to-roman/",
+    "approach": "Greedy with Value Array",
+    "data_structures": ["Array", "String"],
+    "concepts": ["Greedy", "String"]
+  },
+  {
+    "title": "Longest Common Prefix",
+    "url": "https://leetcode.com/problems/longest-common-prefix/",
+    "approach": "Vertical Scanning",
+    "data_structures": ["Array", "String"],
+    "concepts": ["String Matching", "Prefix"]
+  },
+  {
+    "title": "3Sum",
+    "url": "https://leetcode.com/problems/3sum/",
+    "approach": "Sorting + Two Pointers",
+    "data_structures": ["Array"],
+    "concepts": ["Sorting", "Two Pointers", "Set"]
+  },
+  {
+    "title": "Valid Palindrome",
+    "url": "https://leetcode.com/problems/valid-palindrome/",
+    "approach": "Two Pointers after filtering",
+    "data_structures": ["String"],
+    "concepts": ["String Cleaning", "Palindrome"]
+  },
+  {
+    "title": "Group Anagrams",
+    "url": "https://leetcode.com/problems/group-anagrams/",
+    "approach": "Sort String and Group with HashMap",
+    "data_structures": ["HashMap", "List"],
+    "concepts": ["Hashing", "String Manipulation", "Sorting"]
+  },
+  {
+    "title": "Count and Say",
+    "url": "https://leetcode.com/problems/count-and-say/",
+    "approach": "String Construction with Count Tracking",
+    "data_structures": ["String"],
+    "concepts": ["String Construction", "Recursion"]
+  },
+  {
+    "title": "Length of Longest Subsequence",
+    "url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+    "approach": "Dynamic Programming or Binary Search",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming", "Binary Search"]
+  },
+  {
+    "title": "Rotate Array",
+    "url": "https://leetcode.com/problems/rotate-array/",
+    "approach": "Reverse Array Trick",
+    "data_structures": ["Array"],
+    "concepts": ["Array Rotation", "Modular Indexing"]
+  },
+  {
+    "title": "First Unique Character in a String",
+    "url": "https://leetcode.com/problems/first-unique-character-in-a-string/",
+    "approach": "Frequency Counting",
+    "data_structures": ["HashMap", "String"],
+    "concepts": ["Hashing", "Frequency Count"]
+  },
+  {
+    "title": "Ransom Note",
+    "url": "https://leetcode.com/problems/ransom-note/",
+    "approach": "Char Count Matching",
+    "data_structures": ["HashMap", "String"],
+    "concepts": ["HashMap", "Greedy", "Frequency Count"]
+  },
+  {
+    "title": "Linked List Cycle",
+    "url": "https://leetcode.com/problems/linked-list-cycle/",
+    "approach": "Floyd’s Tortoise and Hare",
+    "data_structures": ["Linked List"],
+    "concepts": ["Two Pointers", "Cycle Detection"]
+  },
+  {
+    "title": "Remove Linked List Elements",
+    "url": "https://leetcode.com/problems/remove-linked-list-elements/",
+    "approach": "Dummy Head Traversal",
+    "data_structures": ["Linked List"],
+    "concepts": ["Iteration", "Pointer Update"]
+  },
+  {
+    "title": "Merge Sorted Array",
+    "url": "https://leetcode.com/problems/merge-sorted-array/",
+    "approach": "Two Pointers from End",
+    "data_structures": ["Array"],
+    "concepts": ["Two Pointers", "In-place Merge"]
+  },
+  {
+    "title": "Symmetric Tree",
+    "url": "https://leetcode.com/problems/symmetric-tree/",
+    "approach": "Recursive Mirror Check",
+    "data_structures": ["Binary Tree"],
+    "concepts": ["Recursion", "DFS", "Tree Traversal"]
+  },
+  {
+    "title": "Binary Tree Inorder Traversal",
+    "url": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+    "approach": "Recursive or Stack-based Iterative",
+    "data_structures": ["Binary Tree", "Stack"],
+    "concepts": ["DFS", "Inorder Traversal"]
+  },
+  {
+    "title": "Same Tree",
+    "url": "https://leetcode.com/problems/same-tree/",
+    "approach": "DFS Recursion",
+    "data_structures": ["Binary Tree"],
+    "concepts": ["Recursion", "Tree Traversal"]
+  },
+  {
+    "title": "Maximum Depth of Binary Tree",
+    "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+    "approach": "DFS with Max Depth Tracking",
+    "data_structures": ["Binary Tree"],
+    "concepts": ["Recursion", "DFS"]
+  },
+  {
+    "title": "Path Sum",
+    "url": "https://leetcode.com/problems/path-sum/",
+    "approach": "Recursive DFS with sum tracking",
+    "data_structures": ["Binary Tree"],
+    "concepts": ["DFS", "Recursion"]
+  },
+  {
+    "title": "Invert Binary Tree",
+    "url": "https://leetcode.com/problems/invert-binary-tree/",
+    "approach": "Recursive Swap of Subtrees",
+    "data_structures": ["Binary Tree"],
+    "concepts": ["Recursion", "Tree Manipulation"]
+  },
+  {
+    "title": "Minimum Depth of Binary Tree",
+    "url": "https://leetcode.com/problems/minimum-depth-of-binary-tree/",
+    "approach": "BFS for level discovery",
+    "data_structures": ["Binary Tree", "Queue"],
+    "concepts": ["BFS", "Recursion"]
+  },
+  {
+    "title": "Balanced Binary Tree",
+    "url": "https://leetcode.com/problems/balanced-binary-tree/",
+    "approach": "DFS with Height Check",
+    "data_structures": ["Binary Tree"],
+    "concepts": ["Recursion", "DFS"]
+  },
+  {
+    "title": "Diameter of Binary Tree",
+    "url": "https://leetcode.com/problems/diameter-of-binary-tree/",
+    "approach": "DFS with max(left + right)",
+    "data_structures": ["Binary Tree"],
+    "concepts": ["DFS", "Recursion", "Tree Height"]
+  },
+
+  {
+    "title": "Valid Sudoku",
+    "url": "https://leetcode.com/problems/valid-sudoku/",
+    "approach": "Check rows, columns, and sub-boxes",
+    "data_structures": ["HashSet", "2D Array"],
+    "concepts": ["Hashing", "Matrix Traversal", "Validation"]
+  },
+  {
+    "title": "Word Search",
+    "url": "https://leetcode.com/problems/word-search/",
+    "approach": "Backtracking with visited set",
+    "data_structures": ["Matrix"],
+    "concepts": ["Backtracking", "DFS"]
+  },
+  {
+    "title": "Set Matrix Zeroes",
+    "url": "https://leetcode.com/problems/set-matrix-zeroes/",
+    "approach": "Use first row/column as marker",
+    "data_structures": ["2D Array"],
+    "concepts": ["Matrix Manipulation", "In-place Update"]
+  },
+  {
+    "title": "Spiral Matrix",
+    "url": "https://leetcode.com/problems/spiral-matrix/",
+    "approach": "Layer-by-layer traversal",
+    "data_structures": ["Matrix"],
+    "concepts": ["Simulation", "Matrix Traversal"]
+  },
+  {
+    "title": "Jump Game",
+    "url": "https://leetcode.com/problems/jump-game/",
+    "approach": "Greedy maximum reachable index",
+    "data_structures": ["Array"],
+    "concepts": ["Greedy"]
+  },
+  {
+    "title": "Merge Intervals",
+    "url": "https://leetcode.com/problems/merge-intervals/",
+    "approach": "Sort then merge overlapping intervals",
+    "data_structures": ["Array"],
+    "concepts": ["Sorting", "Interval Merge"]
+  },
+  {
+    "title": "Insert Interval",
+    "url": "https://leetcode.com/problems/insert-interval/",
+    "approach": "Find insert position, then merge",
+    "data_structures": ["Array"],
+    "concepts": ["Greedy", "Interval Merge"]
+  },
+  {
+    "title": "Unique Paths",
+    "url": "https://leetcode.com/problems/unique-paths/",
+    "approach": "Dynamic Programming",
+    "data_structures": ["2D Array"],
+    "concepts": ["DP", "Combinatorics"]
+  },
+  {
+    "title": "Climbing Stairs",
+    "url": "https://leetcode.com/problems/climbing-stairs/",
+    "approach": "Fibonacci with DP or recursion",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Minimum Path Sum",
+    "url": "https://leetcode.com/problems/minimum-path-sum/",
+    "approach": "DP from bottom-up",
+    "data_structures": ["2D Array"],
+    "concepts": ["DP", "Matrix"]
+  },
+  {
+    "title": "Edit Distance",
+    "url": "https://leetcode.com/problems/edit-distance/",
+    "approach": "DP with memoization",
+    "data_structures": ["2D Array"],
+    "concepts": ["Dynamic Programming", "Recursion"]
+  },
+  {
+    "title": "Coin Change",
+    "url": "https://leetcode.com/problems/coin-change/",
+    "approach": "DP with minimum coins for each amount",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "House Robber",
+    "url": "https://leetcode.com/problems/house-robber/",
+    "approach": "DP, choose between rob or skip",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Maximum Subarray",
+    "url": "https://leetcode.com/problems/maximum-subarray/",
+    "approach": "Kadane’s Algorithm",
+    "data_structures": ["Array"],
+    "concepts": ["Greedy", "Dynamic Programming"]
+  },
+  {
+    "title": "Product of Array Except Self",
+    "url": "https://leetcode.com/problems/product-of-array-except-self/",
+    "approach": "Left and right product pass",
+    "data_structures": ["Array"],
+    "concepts": ["Prefix Product", "Space Optimization"]
+  },
+  {
+    "title": "Find Minimum in Rotated Sorted Array",
+    "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+    "approach": "Binary Search",
+    "data_structures": ["Array"],
+    "concepts": ["Binary Search", "Divide and Conquer"]
+  },
+  {
+    "title": "Search in Rotated Sorted Array",
+    "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "approach": "Modified Binary Search",
+    "data_structures": ["Array"],
+    "concepts": ["Binary Search"]
+  },
+  {
+    "title": "Combination Sum",
+    "url": "https://leetcode.com/problems/combination-sum/",
+    "approach": "Backtracking",
+    "data_structures": ["Array"],
+    "concepts": ["Backtracking", "Recursion"]
+  },
+  {
+    "title": "Subsets",
+    "url": "https://leetcode.com/problems/subsets/",
+    "approach": "Backtracking or Bitmasking",
+    "data_structures": ["Array"],
+    "concepts": ["Backtracking", "Bit Manipulation"]
+  },
+  {
+    "title": "Permutations",
+    "url": "https://leetcode.com/problems/permutations/",
+    "approach": "Backtracking",
+    "data_structures": ["Array"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Letter Combinations of a Phone Number",
+    "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+    "approach": "Backtracking with digit-to-letter mapping",
+    "data_structures": ["Array", "String"],
+    "concepts": ["Backtracking", "Recursion"]
+  },
+  {
+    "title": "Generate Parentheses",
+    "url": "https://leetcode.com/problems/generate-parentheses/",
+    "approach": "Backtracking with open/close count",
+    "data_structures": ["String"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Valid Parentheses",
+    "url": "https://leetcode.com/problems/valid-parentheses/",
+    "approach": "Stack-based matching",
+    "data_structures": ["Stack"],
+    "concepts": ["Stack", "String"]
+  },
+  {
+    "title": "Evaluate Reverse Polish Notation",
+    "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+    "approach": "Use stack for operands",
+    "data_structures": ["Stack"],
+    "concepts": ["Stack", "Postfix Evaluation"]
+  },
+  {
+    "title": "Daily Temperatures",
+    "url": "https://leetcode.com/problems/daily-temperatures/",
+    "approach": "Monotonic Stack",
+    "data_structures": ["Stack"],
+    "concepts": ["Monotonic Stack", "Array"]
+  },
+
+  {
+    "title": "Car Fleet",
+    "url": "https://leetcode.com/problems/car-fleet/",
+    "approach": "Sort by position, use stack for speed comparison",
+    "data_structures": ["Stack", "Array"],
+    "concepts": ["Greedy", "Sorting", "Stack"]
+  },
+  {
+    "title": "Largest Rectangle in Histogram",
+    "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+    "approach": "Monotonic stack for previous and next smaller",
+    "data_structures": ["Stack"],
+    "concepts": ["Monotonic Stack", "Histogram"]
+  },
+  {
+    "title": "Sliding Window Maximum",
+    "url": "https://leetcode.com/problems/sliding-window-maximum/",
+    "approach": "Deque to track maximum",
+    "data_structures": ["Deque"],
+    "concepts": ["Sliding Window", "Monotonic Queue"]
+  },
+  {
+    "title": "Min Stack",
+    "url": "https://leetcode.com/problems/min-stack/",
+    "approach": "Stack with min tracking",
+    "data_structures": ["Stack"],
+    "concepts": ["Stack", "Design"]
+  },
+  {
+    "title": "Implement Queue using Stacks",
+    "url": "https://leetcode.com/problems/implement-queue-using-stacks/",
+    "approach": "Two stacks for enqueue/dequeue",
+    "data_structures": ["Stack"],
+    "concepts": ["Stack", "Queue", "Design"]
+  },
+  {
+    "title": "Number of Islands",
+    "url": "https://leetcode.com/problems/number-of-islands/",
+    "approach": "DFS or BFS from each land cell",
+    "data_structures": ["Grid", "Visited Set"],
+    "concepts": ["DFS", "BFS", "Matrix"]
+  },
+  {
+    "title": "Flood Fill",
+    "url": "https://leetcode.com/problems/flood-fill/",
+    "approach": "DFS/BFS with visited check",
+    "data_structures": ["Grid"],
+    "concepts": ["DFS", "BFS", "Matrix"]
+  },
+  {
+    "title": "Rotting Oranges",
+    "url": "https://leetcode.com/problems/rotting-oranges/",
+    "approach": "BFS with queue",
+    "data_structures": ["Grid", "Queue"],
+    "concepts": ["BFS", "Matrix"]
+  },
+  {
+    "title": "Walls and Gates",
+    "url": "https://leetcode.com/problems/walls-and-gates/",
+    "approach": "BFS from all gates",
+    "data_structures": ["Grid", "Queue"],
+    "concepts": ["BFS", "Matrix"]
+  },
+  {
+    "title": "Pacific Atlantic Water Flow",
+    "url": "https://leetcode.com/problems/pacific-atlantic-water-flow/",
+    "approach": "DFS from borders",
+    "data_structures": ["Grid", "Visited Set"],
+    "concepts": ["DFS", "Matrix"]
+  },
+  {
+    "title": "Clone Graph",
+    "url": "https://leetcode.com/problems/clone-graph/",
+    "approach": "DFS or BFS with hashmap",
+    "data_structures": ["Graph", "HashMap"],
+    "concepts": ["DFS", "BFS", "Graph Cloning"]
+  },
+  {
+    "title": "Course Schedule",
+    "url": "https://leetcode.com/problems/course-schedule/",
+    "approach": "Topological sort (BFS or DFS)",
+    "data_structures": ["Graph", "Queue"],
+    "concepts": ["Graph", "Topological Sort", "Cycle Detection"]
+  },
+  {
+    "title": "Course Schedule II",
+    "url": "https://leetcode.com/problems/course-schedule-ii/",
+    "approach": "Topological sort using in-degree",
+    "data_structures": ["Graph", "Queue"],
+    "concepts": ["Graph", "Topological Sort"]
+  },
+  {
+    "title": "Redundant Connection",
+    "url": "https://leetcode.com/problems/redundant-connection/",
+    "approach": "Union Find",
+    "data_structures": ["Disjoint Set"],
+    "concepts": ["Union-Find", "Graph"]
+  },
+  {
+    "title": "Number of Connected Components in an Undirected Graph",
+    "url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+    "approach": "Union Find or DFS",
+    "data_structures": ["Graph", "Disjoint Set"],
+    "concepts": ["Graph", "Union-Find", "DFS"]
+  },
+  {
+    "title": "Graph Valid Tree",
+    "url": "https://leetcode.com/problems/graph-valid-tree/",
+    "approach": "DFS with cycle check or Union Find",
+    "data_structures": ["Graph"],
+    "concepts": ["Graph", "DFS", "Union-Find"]
+  },
+  {
+    "title": "Reorder List",
+    "url": "https://leetcode.com/problems/reorder-list/",
+    "approach": "Split, reverse second half, merge",
+    "data_structures": ["Linked List"],
+    "concepts": ["Linked List", "Two Pointers"]
+  },
+  {
+    "title": "Add Two Numbers",
+    "url": "https://leetcode.com/problems/add-two-numbers/",
+    "approach": "Iterate with carry",
+    "data_structures": ["Linked List"],
+    "concepts": ["Linked List", "Math"]
+  },
+  {
+    "title": "Linked List Cycle",
+    "url": "https://leetcode.com/problems/linked-list-cycle/",
+    "approach": "Floyd’s Tortoise and Hare",
+    "data_structures": ["Linked List"],
+    "concepts": ["Two Pointers", "Cycle Detection"]
+  },
+  {
+    "title": "Remove Nth Node From End of List",
+    "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+    "approach": "Two pointer technique",
+    "data_structures": ["Linked List"],
+    "concepts": ["Two Pointers"]
+  },
+  {
+    "title": "Merge Two Sorted Lists",
+    "url": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "approach": "Two pointer merge",
+    "data_structures": ["Linked List"],
+    "concepts": ["Linked List", "Merge"]
+  },
+  {
+    "title": "Reverse Linked List",
+    "url": "https://leetcode.com/problems/reverse-linked-list/",
+    "approach": "Iterative or recursive reverse",
+    "data_structures": ["Linked List"],
+    "concepts": ["Linked List", "Recursion"]
+  },
+  {
+    "title": "Palindrome Linked List",
+    "url": "https://leetcode.com/problems/palindrome-linked-list/",
+    "approach": "Reverse second half and compare",
+    "data_structures": ["Linked List"],
+    "concepts": ["Linked List", "Two Pointers"]
+  },
+  {
+    "title": "Detect Cycle in a Linked List II",
+    "url": "https://leetcode.com/problems/linked-list-cycle-ii/",
+    "approach": "Floyd’s cycle detection and distance math",
+    "data_structures": ["Linked List"],
+    "concepts": ["Cycle Detection", "Two Pointers"]
+  },
+  {
+    "title": "LRU Cache",
+    "url": "https://leetcode.com/problems/lru-cache/",
+    "approach": "HashMap + Doubly Linked List",
+    "data_structures": ["HashMap", "Linked List"],
+    "concepts": ["Design", "Cache"]
+  },
+
+  {
+    "title": "Binary Tree Level Order Traversal",
+    "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "approach": "BFS using queue",
+    "data_structures": ["Queue", "Tree"],
+    "concepts": ["Breadth-First Search", "Tree Traversal"]
+  },
+  {
+    "title": "Validate Binary Search Tree",
+    "url": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "approach": "Recursive in-order traversal with bounds",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "BST Properties"]
+  },
+  {
+    "title": "Invert Binary Tree",
+    "url": "https://leetcode.com/problems/invert-binary-tree/",
+    "approach": "Recursive swap left and right nodes",
+    "data_structures": ["Tree"],
+    "concepts": ["Recursion", "Tree Manipulation"]
+  },
+  {
+    "title": "Maximum Depth of Binary Tree",
+    "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+    "approach": "Recursive DFS for height",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Recursion"]
+  },
+  {
+    "title": "Diameter of Binary Tree",
+    "url": "https://leetcode.com/problems/diameter-of-binary-tree/",
+    "approach": "DFS for height and update max diameter",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Tree"]
+  },
+  {
+    "title": "Same Tree",
+    "url": "https://leetcode.com/problems/same-tree/",
+    "approach": "DFS compare each node",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Tree"]
+  },
+  {
+    "title": "Subtree of Another Tree",
+    "url": "https://leetcode.com/problems/subtree-of-another-tree/",
+    "approach": "DFS with isSameTree comparison",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Tree Comparison"]
+  },
+  {
+    "title": "Lowest Common Ancestor of a Binary Search Tree",
+    "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+    "approach": "Traverse based on value comparisons",
+    "data_structures": ["Tree"],
+    "concepts": ["BST", "Recursion"]
+  },
+  {
+    "title": "Binary Tree Maximum Path Sum",
+    "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+    "approach": "DFS tracking max gain from left and right",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Tree", "Dynamic Programming"]
+  },
+  {
+    "title": "Serialize and Deserialize Binary Tree",
+    "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+    "approach": "Preorder serialization with nulls",
+    "data_structures": ["Tree", "Queue"],
+    "concepts": ["DFS", "Serialization", "Design"]
+  },
+  {
+    "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+    "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+    "approach": "Divide using inorder index map",
+    "data_structures": ["Tree", "Array"],
+    "concepts": ["DFS", "Tree Construction"]
+  },
+  {
+    "title": "Path Sum",
+    "url": "https://leetcode.com/problems/path-sum/",
+    "approach": "DFS subtracting target at each step",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Tree"]
+  },
+  {
+    "title": "Symmetric Tree",
+    "url": "https://leetcode.com/problems/symmetric-tree/",
+    "approach": "DFS comparing mirror nodes",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Recursion"]
+  },
+  {
+    "title": "Balanced Binary Tree",
+    "url": "https://leetcode.com/problems/balanced-binary-tree/",
+    "approach": "DFS with height difference check",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Tree", "Recursion"]
+  },
+  {
+    "title": "Populating Next Right Pointers in Each Node",
+    "url": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/",
+    "approach": "Level order traversal",
+    "data_structures": ["Tree", "Queue"],
+    "concepts": ["BFS", "Pointer Manipulation"]
+  },
+  {
+    "title": "Convert Sorted Array to Binary Search Tree",
+    "url": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/",
+    "approach": "Recursive mid-point insertion",
+    "data_structures": ["Tree", "Array"],
+    "concepts": ["Divide and Conquer", "BST"]
+  },
+  {
+    "title": "House Robber III",
+    "url": "https://leetcode.com/problems/house-robber-iii/",
+    "approach": "DFS with memoization on node states",
+    "data_structures": ["Tree", "Map"],
+    "concepts": ["DFS", "DP on Trees"]
+  },
+  {
+    "title": "Flatten Binary Tree to Linked List",
+    "url": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
+    "approach": "Reverse postorder traversal",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Tree Manipulation"]
+  },
+  {
+    "title": "Recover Binary Search Tree",
+    "url": "https://leetcode.com/problems/recover-binary-search-tree/",
+    "approach": "Inorder traversal to find swapped nodes",
+    "data_structures": ["Tree"],
+    "concepts": ["BST", "Inorder Traversal"]
+  },
+  {
+    "title": "Binary Search Tree Iterator",
+    "url": "https://leetcode.com/problems/binary-search-tree-iterator/",
+    "approach": "Inorder traversal using stack",
+    "data_structures": ["Stack", "Tree"],
+    "concepts": ["Iterator", "BST"]
+  },
+  {
+    "title": "Kth Smallest Element in a BST",
+    "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+    "approach": "Inorder traversal with counter",
+    "data_structures": ["Tree"],
+    "concepts": ["BST", "Inorder Traversal"]
+  },
+  {
+    "title": "Convert BST to Greater Tree",
+    "url": "https://leetcode.com/problems/convert-bst-to-greater-tree/",
+    "approach": "Reverse inorder traversal",
+    "data_structures": ["Tree"],
+    "concepts": ["BST", "DFS"]
+  },
+  {
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "approach": "Postorder DFS return node if match found",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Tree"]
+  },
+  {
+    "title": "Sum of Left Leaves",
+    "url": "https://leetcode.com/problems/sum-of-left-leaves/",
+    "approach": "DFS checking left child status",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Tree"]
+  },
+  {
+    "title": "Path Sum II",
+    "url": "https://leetcode.com/problems/path-sum-ii/",
+    "approach": "DFS with path list tracking",
+    "data_structures": ["Tree", "List"],
+    "concepts": ["DFS", "Backtracking"]
+  },
+
+
+  {
+    "title": "Path Sum III",
+    "url": "https://leetcode.com/problems/path-sum-iii/",
+    "approach": "DFS with prefix sum hashmap",
+    "data_structures": ["Tree", "HashMap"],
+    "concepts": ["Prefix Sum", "DFS"]
+  },
+  {
+    "title": "Construct Binary Tree from Inorder and Postorder Traversal",
+    "url": "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/",
+    "approach": "Recursive with inorder index map",
+    "data_structures": ["Tree", "Array"],
+    "concepts": ["DFS", "Tree Construction"]
+  },
+  {
+    "title": "Construct Binary Tree from Preorder and Postorder Traversal",
+    "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/",
+    "approach": "Recursive with index tracking",
+    "data_structures": ["Tree", "Array"],
+    "concepts": ["Divide and Conquer"]
+  },
+  {
+    "title": "Delete Node in a BST",
+    "url": "https://leetcode.com/problems/delete-node-in-a-bst/",
+    "approach": "Recursive search and restructure",
+    "data_structures": ["Tree"],
+    "concepts": ["BST", "Recursion"]
+  },
+  {
+    "title": "Average of Levels in Binary Tree",
+    "url": "https://leetcode.com/problems/average-of-levels-in-binary-tree/",
+    "approach": "BFS with level sum tracking",
+    "data_structures": ["Queue", "Tree"],
+    "concepts": ["BFS", "Tree"]
+  },
+  {
+    "title": "Find Duplicate Subtrees",
+    "url": "https://leetcode.com/problems/find-duplicate-subtrees/",
+    "approach": "Postorder serialization with hashmap",
+    "data_structures": ["Tree", "HashMap"],
+    "concepts": ["DFS", "Serialization"]
+  },
+  {
+    "title": "Merge Two Binary Trees",
+    "url": "https://leetcode.com/problems/merge-two-binary-trees/",
+    "approach": "Recursive sum and merge",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Recursion"]
+  },
+  {
+    "title": "All Nodes Distance K in Binary Tree",
+    "url": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/",
+    "approach": "Build graph + BFS from target",
+    "data_structures": ["Tree", "HashMap", "Queue"],
+    "concepts": ["Graph", "BFS"]
+  },
+  {
+    "title": "Vertical Order Traversal of a Binary Tree",
+    "url": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/",
+    "approach": "DFS with coordinates and sorting",
+    "data_structures": ["Tree", "Map"],
+    "concepts": ["Tree Traversal", "Sorting"]
+  },
+  {
+    "title": "Binary Tree Right Side View",
+    "url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+    "approach": "BFS and take last node of each level",
+    "data_structures": ["Tree", "Queue"],
+    "concepts": ["BFS", "Tree"]
+  },
+  {
+    "title": "Binary Tree Zigzag Level Order Traversal",
+    "url": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
+    "approach": "BFS with alternating direction flag",
+    "data_structures": ["Tree", "Queue"],
+    "concepts": ["BFS", "Level Order Traversal"]
+  },
+  {
+    "title": "Find Leaves of Binary Tree",
+    "url": "https://leetcode.com/problems/find-leaves-of-binary-tree/",
+    "approach": "DFS to find height of each node",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Tree"]
+  },
+  {
+    "title": "Smallest String Starting From Leaf",
+    "url": "https://leetcode.com/problems/smallest-string-starting-from-leaf/",
+    "approach": "DFS with path accumulation",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "String Manipulation"]
+  },
+  {
+    "title": "Cousins in Binary Tree",
+    "url": "https://leetcode.com/problems/cousins-in-binary-tree/",
+    "approach": "BFS with depth and parent tracking",
+    "data_structures": ["Tree", "Queue"],
+    "concepts": ["BFS", "Tree"]
+  },
+  {
+    "title": "Sum of Root To Leaf Binary Numbers",
+    "url": "https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/",
+    "approach": "DFS accumulate binary value",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Binary"]
+  },
+  {
+    "title": "Check Completeness of a Binary Tree",
+    "url": "https://leetcode.com/problems/check-completeness-of-a-binary-tree/",
+    "approach": "BFS and check for null gap",
+    "data_structures": ["Tree", "Queue"],
+    "concepts": ["BFS", "Tree"]
+  },
+  {
+    "title": "Maximum Level Sum of a Binary Tree",
+    "url": "https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/",
+    "approach": "Level-order BFS with max tracking",
+    "data_structures": ["Tree", "Queue"],
+    "concepts": ["BFS", "Tree"]
+  },
+  {
+    "title": "Flip Equivalent Binary Trees",
+    "url": "https://leetcode.com/problems/flip-equivalent-binary-trees/",
+    "approach": "Recursive comparison with flip check",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Tree"]
+  },
+  {
+    "title": "Maximum Width of Binary Tree",
+    "url": "https://leetcode.com/problems/maximum-width-of-binary-tree/",
+    "approach": "BFS with node indices",
+    "data_structures": ["Tree", "Queue"],
+    "concepts": ["BFS", "Index Tracking"]
+  },
+  {
+    "title": "Leaf-Similar Trees",
+    "url": "https://leetcode.com/problems/leaf-similar-trees/",
+    "approach": "DFS collect leaves and compare",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Tree"]
+  },
+  {
+    "title": "Even Odd Tree",
+    "url": "https://leetcode.com/problems/even-odd-tree/",
+    "approach": "BFS with value parity and order checks",
+    "data_structures": ["Tree", "Queue"],
+    "concepts": ["BFS", "Tree"]
+  },
+  {
+    "title": "Delete Leaves With a Given Value",
+    "url": "https://leetcode.com/problems/delete-leaves-with-a-given-value/",
+    "approach": "Postorder DFS with conditional deletion",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Tree"]
+  },
+  {
+    "title": "Sum of Nodes with Even-Valued Grandparent",
+    "url": "https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/",
+    "approach": "DFS with parent and grandparent tracking",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Tree"]
+  },
+  {
+    "title": "Pseudo-Palindromic Paths in a Binary Tree",
+    "url": "https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/",
+    "approach": "DFS with bitmask frequency tracking",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Bit Manipulation"]
+  },
+
+  {
+    "title": "Path Sum III",
+    "url": "https://leetcode.com/problems/path-sum-iii/",
+    "approach": "DFS with prefix sum hashmap",
+    "data_structures": ["Tree", "HashMap"],
+    "concepts": ["Prefix Sum", "DFS"]
+  },
+  {
+    "title": "Construct Binary Tree from Inorder and Postorder Traversal",
+    "url": "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/",
+    "approach": "Recursive with inorder index map",
+    "data_structures": ["Tree", "Array"],
+    "concepts": ["DFS", "Tree Construction"]
+  },
+  {
+    "title": "Construct Binary Tree from Preorder and Postorder Traversal",
+    "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/",
+    "approach": "Recursive with index tracking",
+    "data_structures": ["Tree", "Array"],
+    "concepts": ["Divide and Conquer"]
+  },
+  {
+    "title": "Delete Node in a BST",
+    "url": "https://leetcode.com/problems/delete-node-in-a-bst/",
+    "approach": "Recursive search and restructure",
+    "data_structures": ["Tree"],
+    "concepts": ["BST", "Recursion"]
+  },
+  {
+    "title": "Average of Levels in Binary Tree",
+    "url": "https://leetcode.com/problems/average-of-levels-in-binary-tree/",
+    "approach": "BFS with level sum tracking",
+    "data_structures": ["Queue", "Tree"],
+    "concepts": ["BFS", "Tree"]
+  },
+  {
+    "title": "Find Duplicate Subtrees",
+    "url": "https://leetcode.com/problems/find-duplicate-subtrees/",
+    "approach": "Postorder serialization with hashmap",
+    "data_structures": ["Tree", "HashMap"],
+    "concepts": ["DFS", "Serialization"]
+  },
+  {
+    "title": "Merge Two Binary Trees",
+    "url": "https://leetcode.com/problems/merge-two-binary-trees/",
+    "approach": "Recursive sum and merge",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Recursion"]
+  },
+  {
+    "title": "All Nodes Distance K in Binary Tree",
+    "url": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/",
+    "approach": "Build graph + BFS from target",
+    "data_structures": ["Tree", "HashMap", "Queue"],
+    "concepts": ["Graph", "BFS"]
+  },
+  {
+    "title": "Vertical Order Traversal of a Binary Tree",
+    "url": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/",
+    "approach": "DFS with coordinates and sorting",
+    "data_structures": ["Tree", "Map"],
+    "concepts": ["Tree Traversal", "Sorting"]
+  },
+  {
+    "title": "Binary Tree Right Side View",
+    "url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+    "approach": "BFS and take last node of each level",
+    "data_structures": ["Tree", "Queue"],
+    "concepts": ["BFS", "Tree"]
+  },
+  {
+    "title": "Binary Tree Zigzag Level Order Traversal",
+    "url": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
+    "approach": "BFS with alternating direction flag",
+    "data_structures": ["Tree", "Queue"],
+    "concepts": ["BFS", "Level Order Traversal"]
+  },
+  {
+    "title": "Find Leaves of Binary Tree",
+    "url": "https://leetcode.com/problems/find-leaves-of-binary-tree/",
+    "approach": "DFS to find height of each node",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Tree"]
+  },
+  {
+    "title": "Smallest String Starting From Leaf",
+    "url": "https://leetcode.com/problems/smallest-string-starting-from-leaf/",
+    "approach": "DFS with path accumulation",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "String Manipulation"]
+  },
+  {
+    "title": "Cousins in Binary Tree",
+    "url": "https://leetcode.com/problems/cousins-in-binary-tree/",
+    "approach": "BFS with depth and parent tracking",
+    "data_structures": ["Tree", "Queue"],
+    "concepts": ["BFS", "Tree"]
+  },
+  {
+    "title": "Sum of Root To Leaf Binary Numbers",
+    "url": "https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/",
+    "approach": "DFS accumulate binary value",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Binary"]
+  },
+  {
+    "title": "Check Completeness of a Binary Tree",
+    "url": "https://leetcode.com/problems/check-completeness-of-a-binary-tree/",
+    "approach": "BFS and check for null gap",
+    "data_structures": ["Tree", "Queue"],
+    "concepts": ["BFS", "Tree"]
+  },
+  {
+    "title": "Maximum Level Sum of a Binary Tree",
+    "url": "https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/",
+    "approach": "Level-order BFS with max tracking",
+    "data_structures": ["Tree", "Queue"],
+    "concepts": ["BFS", "Tree"]
+  },
+  {
+    "title": "Flip Equivalent Binary Trees",
+    "url": "https://leetcode.com/problems/flip-equivalent-binary-trees/",
+    "approach": "Recursive comparison with flip check",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Tree"]
+  },
+  {
+    "title": "Maximum Width of Binary Tree",
+    "url": "https://leetcode.com/problems/maximum-width-of-binary-tree/",
+    "approach": "BFS with node indices",
+    "data_structures": ["Tree", "Queue"],
+    "concepts": ["BFS", "Index Tracking"]
+  },
+  {
+    "title": "Leaf-Similar Trees",
+    "url": "https://leetcode.com/problems/leaf-similar-trees/",
+    "approach": "DFS collect leaves and compare",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Tree"]
+  },
+  {
+    "title": "Even Odd Tree",
+    "url": "https://leetcode.com/problems/even-odd-tree/",
+    "approach": "BFS with value parity and order checks",
+    "data_structures": ["Tree", "Queue"],
+    "concepts": ["BFS", "Tree"]
+  },
+  {
+    "title": "Delete Leaves With a Given Value",
+    "url": "https://leetcode.com/problems/delete-leaves-with-a-given-value/",
+    "approach": "Postorder DFS with conditional deletion",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Tree"]
+  },
+  {
+    "title": "Sum of Nodes with Even-Valued Grandparent",
+    "url": "https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/",
+    "approach": "DFS with parent and grandparent tracking",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Tree"]
+  },
+  {
+    "title": "Pseudo-Palindromic Paths in a Binary Tree",
+    "url": "https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/",
+    "approach": "DFS with bitmask frequency tracking",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Bit Manipulation"]
+  },
+
+
+
+
+
+
+
+  {
+    "title": "Count Good Nodes in Binary Tree",
+    "url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+    "approach": "DFS with max value tracking",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS"]
+  },
+  {
+    "title": "Minimum Depth of Binary Tree",
+    "url": "https://leetcode.com/problems/minimum-depth-of-binary-tree/",
+    "approach": "BFS or DFS to find the first leaf",
+    "data_structures": ["Tree"],
+    "concepts": ["BFS", "DFS"]
+  },
+  {
+    "title": "Diameter of Binary Tree",
+    "url": "https://leetcode.com/problems/diameter-of-binary-tree/",
+    "approach": "DFS to calculate max depth and track diameter",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS"]
+  },
+  {
+    "title": "Maximum Depth of Binary Tree",
+    "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+    "approach": "DFS to find max depth recursively",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS"]
+  },
+  {
+    "title": "Balanced Binary Tree",
+    "url": "https://leetcode.com/problems/balanced-binary-tree/",
+    "approach": "Bottom-up DFS with balance check",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS"]
+  },
+  {
+    "title": "Binary Tree Maximum Path Sum",
+    "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+    "approach": "Postorder DFS tracking max gain",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Dynamic Programming"]
+  },
+  {
+    "title": "Validate Binary Search Tree",
+    "url": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "approach": "DFS with min-max range",
+    "data_structures": ["Tree"],
+    "concepts": ["BST", "DFS"]
+  },
+  {
+    "title": "Same Tree",
+    "url": "https://leetcode.com/problems/same-tree/",
+    "approach": "Recursive comparison",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS"]
+  },
+  {
+    "title": "Symmetric Tree",
+    "url": "https://leetcode.com/problems/symmetric-tree/",
+    "approach": "Recursive mirror comparison",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS"]
+  },
+  {
+    "title": "Invert Binary Tree",
+    "url": "https://leetcode.com/problems/invert-binary-tree/",
+    "approach": "DFS swap left and right",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS"]
+  },
+  {
+    "title": "Subtree of Another Tree",
+    "url": "https://leetcode.com/problems/subtree-of-another-tree/",
+    "approach": "DFS with subtree comparison",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Recursion"]
+  },
+  {
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "approach": "DFS postorder with matching node check",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "LCA"]
+  },
+  {
+    "title": "Binary Tree Paths",
+    "url": "https://leetcode.com/problems/binary-tree-paths/",
+    "approach": "DFS with path accumulation",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "String Manipulation"]
+  },
+  {
+    "title": "Sum Root to Leaf Numbers",
+    "url": "https://leetcode.com/problems/sum-root-to-leaf-numbers/",
+    "approach": "DFS with number accumulation",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Math"]
+  },
+  {
+    "title": "Path Sum",
+    "url": "https://leetcode.com/problems/path-sum/",
+    "approach": "DFS with sum check",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS"]
+  },
+  {
+    "title": "Path Sum II",
+    "url": "https://leetcode.com/problems/path-sum-ii/",
+    "approach": "DFS with backtracking",
+    "data_structures": ["Tree"],
+    "concepts": ["Backtracking", "DFS"]
+  },
+  {
+    "title": "Convert Sorted Array to Binary Search Tree",
+    "url": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/",
+    "approach": "Recursive middle element as root",
+    "data_structures": ["Tree", "Array"],
+    "concepts": ["Divide and Conquer", "BST"]
+  },
+  {
+    "title": "Convert Sorted List to Binary Search Tree",
+    "url": "https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/",
+    "approach": "Find middle using slow-fast pointer",
+    "data_structures": ["Tree", "LinkedList"],
+    "concepts": ["Divide and Conquer", "BST"]
+  },
+  {
+    "title": "Balanced Binary Tree",
+    "url": "https://leetcode.com/problems/balanced-binary-tree/",
+    "approach": "Bottom-up DFS with balance check",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS"]
+  },
+  {
+    "title": "Populating Next Right Pointers in Each Node",
+    "url": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/",
+    "approach": "Level order traversal with next pointer link",
+    "data_structures": ["Tree"],
+    "concepts": ["BFS"]
+  },
+  {
+    "title": "Flatten Binary Tree to Linked List",
+    "url": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
+    "approach": "Postorder DFS and rearrange nodes",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "In-place"]
+  },
+  {
+    "title": "Binary Tree Inorder Traversal",
+    "url": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+    "approach": "Iterative or recursive",
+    "data_structures": ["Tree", "Stack"],
+    "concepts": ["DFS", "Traversal"]
+  },
+  {
+    "title": "Binary Tree Preorder Traversal",
+    "url": "https://leetcode.com/problems/binary-tree-preorder-traversal/",
+    "approach": "Recursive or iterative",
+    "data_structures": ["Tree", "Stack"],
+    "concepts": ["DFS", "Traversal"]
+  },
+  {
+    "title": "Binary Tree Postorder Traversal",
+    "url": "https://leetcode.com/problems/binary-tree-postorder-traversal/",
+    "approach": "Recursive or iterative",
+    "data_structures": ["Tree", "Stack"],
+    "concepts": ["DFS", "Traversal"]
+  },
+  {
+    "title": "Binary Tree Level Order Traversal",
+    "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "approach": "BFS using queue",
+    "data_structures": ["Tree", "Queue"],
+    "concepts": ["BFS"]
+  },
+ {
+    "title": "Count Good Nodes in Binary Tree",
+    "url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+    "approach": "DFS with max value tracking",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS"]
+  },
+  {
+    "title": "Minimum Depth of Binary Tree",
+    "url": "https://leetcode.com/problems/minimum-depth-of-binary-tree/",
+    "approach": "BFS or DFS to find the first leaf",
+    "data_structures": ["Tree"],
+    "concepts": ["BFS", "DFS"]
+  },
+  {
+    "title": "Diameter of Binary Tree",
+    "url": "https://leetcode.com/problems/diameter-of-binary-tree/",
+    "approach": "DFS to calculate max depth and track diameter",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS"]
+  },
+  {
+    "title": "Maximum Depth of Binary Tree",
+    "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+    "approach": "DFS to find max depth recursively",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS"]
+  },
+  {
+    "title": "Balanced Binary Tree",
+    "url": "https://leetcode.com/problems/balanced-binary-tree/",
+    "approach": "Bottom-up DFS with balance check",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS"]
+  },
+  {
+    "title": "Binary Tree Maximum Path Sum",
+    "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+    "approach": "Postorder DFS tracking max gain",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Dynamic Programming"]
+  },
+  {
+    "title": "Validate Binary Search Tree",
+    "url": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "approach": "DFS with min-max range",
+    "data_structures": ["Tree"],
+    "concepts": ["BST", "DFS"]
+  },
+  {
+    "title": "Same Tree",
+    "url": "https://leetcode.com/problems/same-tree/",
+    "approach": "Recursive comparison",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS"]
+  },
+  {
+    "title": "Symmetric Tree",
+    "url": "https://leetcode.com/problems/symmetric-tree/",
+    "approach": "Recursive mirror comparison",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS"]
+  },
+  {
+    "title": "Invert Binary Tree",
+    "url": "https://leetcode.com/problems/invert-binary-tree/",
+    "approach": "DFS swap left and right",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS"]
+  },
+  {
+    "title": "Subtree of Another Tree",
+    "url": "https://leetcode.com/problems/subtree-of-another-tree/",
+    "approach": "DFS with subtree comparison",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Recursion"]
+  },
+  {
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "approach": "DFS postorder with matching node check",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "LCA"]
+  },
+  {
+    "title": "Binary Tree Paths",
+    "url": "https://leetcode.com/problems/binary-tree-paths/",
+    "approach": "DFS with path accumulation",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "String Manipulation"]
+  },
+  {
+    "title": "Sum Root to Leaf Numbers",
+    "url": "https://leetcode.com/problems/sum-root-to-leaf-numbers/",
+    "approach": "DFS with number accumulation",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Math"]
+  },
+  {
+    "title": "Path Sum",
+    "url": "https://leetcode.com/problems/path-sum/",
+    "approach": "DFS with sum check",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS"]
+  },
+  {
+    "title": "Path Sum II",
+    "url": "https://leetcode.com/problems/path-sum-ii/",
+    "approach": "DFS with backtracking",
+    "data_structures": ["Tree"],
+    "concepts": ["Backtracking", "DFS"]
+  },
+  {
+    "title": "Convert Sorted Array to Binary Search Tree",
+    "url": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/",
+    "approach": "Recursive middle element as root",
+    "data_structures": ["Tree", "Array"],
+    "concepts": ["Divide and Conquer", "BST"]
+  },
+  {
+    "title": "Convert Sorted List to Binary Search Tree",
+    "url": "https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/",
+    "approach": "Find middle using slow-fast pointer",
+    "data_structures": ["Tree", "LinkedList"],
+    "concepts": ["Divide and Conquer", "BST"]
+  },
+  {
+    "title": "Balanced Binary Tree",
+    "url": "https://leetcode.com/problems/balanced-binary-tree/",
+    "approach": "Bottom-up DFS with balance check",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS"]
+  },
+  {
+    "title": "Populating Next Right Pointers in Each Node",
+    "url": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/",
+    "approach": "Level order traversal with next pointer link",
+    "data_structures": ["Tree"],
+    "concepts": ["BFS"]
+  },
+  {
+    "title": "Flatten Binary Tree to Linked List",
+    "url": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
+    "approach": "Postorder DFS and rearrange nodes",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "In-place"]
+  },
+  {
+    "title": "Binary Tree Inorder Traversal",
+    "url": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+    "approach": "Iterative or recursive",
+    "data_structures": ["Tree", "Stack"],
+    "concepts": ["DFS", "Traversal"]
+  },
+  {
+    "title": "Binary Tree Preorder Traversal",
+    "url": "https://leetcode.com/problems/binary-tree-preorder-traversal/",
+    "approach": "Recursive or iterative",
+    "data_structures": ["Tree", "Stack"],
+    "concepts": ["DFS", "Traversal"]
+  },
+  {
+    "title": "Binary Tree Postorder Traversal",
+    "url": "https://leetcode.com/problems/binary-tree-postorder-traversal/",
+    "approach": "Recursive or iterative",
+    "data_structures": ["Tree", "Stack"],
+    "concepts": ["DFS", "Traversal"]
+  },
+  {
+    "title": "Binary Tree Level Order Traversal",
+    "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "approach": "BFS using queue",
+    "data_structures": ["Tree", "Queue"],
+    "concepts": ["BFS"]
+  },
+ {
+    "title": "Find the Celebrity",
+    "url": "https://leetcode.com/problems/find-the-celebrity/",
+    "approach": "Graph approach with two-pointer technique",
+    "data_structures": ["Graph"],
+    "concepts": ["Two-pointer", "Graph"]
+  },
+  {
+    "title": "Populating Next Right Pointers in Each Node II",
+    "url": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/",
+    "approach": "Level-order traversal with queue",
+    "data_structures": ["Tree", "Queue"],
+    "concepts": ["BFS"]
+  },
+  {
+    "title": "Best Time to Buy and Sell Stock III",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/",
+    "approach": "Dynamic programming with two transactions",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Longest Substring Without Repeating Characters",
+    "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "approach": "Sliding window with hash set",
+    "data_structures": ["HashSet", "String"],
+    "concepts": ["Sliding Window", "Hashing"]
+  },
+  {
+    "title": "Longest Substring with At Most Two Distinct Characters",
+    "url": "https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/",
+    "approach": "Sliding window with hash map",
+    "data_structures": ["HashMap", "String"],
+    "concepts": ["Sliding Window", "Hashing"]
+  },
+  {
+    "title": "Sliding Window Maximum",
+    "url": "https://leetcode.com/problems/sliding-window-maximum/",
+    "approach": "Deque to maintain the window elements",
+    "data_structures": ["Deque", "Array"],
+    "concepts": ["Sliding Window", "Deque"]
+  },
+  {
+    "title": "Find All Anagrams in a String",
+    "url": "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
+    "approach": "Sliding window with frequency count",
+    "data_structures": ["HashMap", "String"],
+    "concepts": ["Sliding Window", "Hashing"]
+  },
+  {
+    "title": "Minimum Window Substring",
+    "url": "https://leetcode.com/problems/minimum-window-substring/",
+    "approach": "Sliding window with two pointers and hash map",
+    "data_structures": ["HashMap", "String"],
+    "concepts": ["Sliding Window", "Hashing"]
+  },
+  {
+    "title": "Valid Anagram",
+    "url": "https://leetcode.com/problems/valid-anagram/",
+    "approach": "Frequency count using hash map",
+    "data_structures": ["HashMap", "String"],
+    "concepts": ["Hashing"]
+  },
+  {
+    "title": "Palindrome Permutation",
+    "url": "https://leetcode.com/problems/palindrome-permutation/",
+    "approach": "Check if at most one character has odd frequency",
+    "data_structures": ["HashMap", "String"],
+    "concepts": ["Hashing"]
+  },
+  {
+    "title": "Word Pattern",
+    "url": "https://leetcode.com/problems/word-pattern/",
+    "approach": "Hash map for pattern matching",
+    "data_structures": ["HashMap", "String"],
+    "concepts": ["Hashing"]
+  },
+  {
+    "title": "Group Anagrams",
+    "url": "https://leetcode.com/problems/group-anagrams/",
+    "approach": "Sort each word or use frequency count",
+    "data_structures": ["HashMap", "Array"],
+    "concepts": ["Hashing"]
+  },
+  {
+    "title": "Substrings of Size K with K Different Characters",
+    "url": "https://leetcode.com/problems/substrings-of-size-k-with-k-different-characters/",
+    "approach": "Sliding window with set to maintain unique characters",
+    "data_structures": ["HashSet", "String"],
+    "concepts": ["Sliding Window", "Hashing"]
+  },
+  {
+    "title": "Longest Substring with At Most K Distinct Characters",
+    "url": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/",
+    "approach": "Sliding window with hash map",
+    "data_structures": ["HashMap", "String"],
+    "concepts": ["Sliding Window", "Hashing"]
+  },
+  {
+    "title": "Kth Largest Element in an Array",
+    "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "approach": "Min-heap or Quickselect algorithm",
+    "data_structures": ["Heap", "Array"],
+    "concepts": ["Heap", "Quickselect"]
+  },
+  {
+    "title": "Merge Intervals",
+    "url": "https://leetcode.com/problems/merge-intervals/",
+    "approach": "Sort and merge intervals",
+    "data_structures": ["Array"],
+    "concepts": ["Sorting"]
+  },
+  {
+    "title": "Insert Interval",
+    "url": "https://leetcode.com/problems/insert-interval/",
+    "approach": "Sort and merge intervals",
+    "data_structures": ["Array"],
+    "concepts": ["Sorting"]
+  },
+  {
+    "title": "Non-overlapping Intervals",
+    "url": "https://leetcode.com/problems/non-overlapping-intervals/",
+    "approach": "Greedy algorithm after sorting intervals",
+    "data_structures": ["Array"],
+    "concepts": ["Greedy", "Sorting"]
+  },
+  {
+    "title": "Course Schedule II",
+    "url": "https://leetcode.com/problems/course-schedule-ii/",
+    "approach": "Topological sort using DFS or BFS",
+    "data_structures": ["Graph"],
+    "concepts": ["Topological Sort", "Graph"]
+  },
+  {
+    "title": "Course Schedule",
+    "url": "https://leetcode.com/problems/course-schedule/",
+    "approach": "Topological sort using DFS or BFS",
+    "data_structures": ["Graph"],
+    "concepts": ["Topological Sort", "Graph"]
+  },
+  {
+    "title": "Number of Islands",
+    "url": "https://leetcode.com/problems/number-of-islands/",
+    "approach": "DFS or BFS to explore all islands",
+    "data_structures": ["Graph", "Matrix"],
+    "concepts": ["DFS", "BFS"]
+  },
+{
+    "title": "Largest Rectangle in Histogram",
+    "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+    "approach": "Use stack to calculate the largest rectangle area",
+    "data_structures": ["Stack", "Array"],
+    "concepts": ["Stack", "Dynamic Programming"]
+  },
+  {
+    "title": "Word Break II",
+    "url": "https://leetcode.com/problems/word-break-ii/",
+    "approach": "Dynamic programming with backtracking",
+    "data_structures": ["HashSet", "String"],
+    "concepts": ["Dynamic Programming", "Backtracking"]
+  },
+  {
+    "title": "Distinct Subsequences",
+    "url": "https://leetcode.com/problems/distinct-subsequences/",
+    "approach": "Dynamic programming to count distinct subsequences",
+    "data_structures": ["String", "Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Binary Tree Right Side View",
+    "url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+    "approach": "Level-order traversal, take the last element at each level",
+    "data_structures": ["Tree", "Queue"],
+    "concepts": ["BFS"]
+  },
+  {
+    "title": "Decode Ways",
+    "url": "https://leetcode.com/problems/decode-ways/",
+    "approach": "Dynamic programming to count the ways to decode",
+    "data_structures": ["String", "Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Combination Sum IV",
+    "url": "https://leetcode.com/problems/combination-sum-iv/",
+    "approach": "Dynamic programming with bottom-up approach",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Palindrome Partitioning II",
+    "url": "https://leetcode.com/problems/palindrome-partitioning-ii/",
+    "approach": "Dynamic programming to minimize the number of cuts",
+    "data_structures": ["String", "Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "House Robber II",
+    "url": "https://leetcode.com/problems/house-robber-ii/",
+    "approach": "Dynamic programming with circular array trick",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Burst Balloons",
+    "url": "https://leetcode.com/problems/burst-balloons/",
+    "approach": "Dynamic programming with memoization",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Palindrome Partitioning",
+    "url": "https://leetcode.com/problems/palindrome-partitioning/",
+    "approach": "Backtracking to generate all partitions and check for palindromes",
+    "data_structures": ["String", "Array"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Binary Tree Maximum Path Sum",
+    "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+    "approach": "DFS to calculate the max path sum with recursion",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Tree"]
+  },
+  {
+    "title": "Scramble String",
+    "url": "https://leetcode.com/problems/scramble-string/",
+    "approach": "Dynamic programming with memoization to check if string can be scrambled",
+    "data_structures": ["String", "HashMap"],
+    "concepts": ["Dynamic Programming", "Recursion"]
+  },
+  {
+    "title": "Burst Balloons",
+    "url": "https://leetcode.com/problems/burst-balloons/",
+    "approach": "Dynamic programming with recursion and memoization",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Minimum Cost For Tickets",
+    "url": "https://leetcode.com/problems/minimum-cost-for-tickets/",
+    "approach": "Dynamic programming to calculate minimum cost",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Counting Bits",
+    "url": "https://leetcode.com/problems/counting-bits/",
+    "approach": "Dynamic programming with bit manipulation",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming", "Bit Manipulation"]
+  },
+  {
+    "title": "Longest Palindromic Substring",
+    "url": "https://leetcode.com/problems/longest-palindromic-substring/",
+    "approach": "Expand around center to find the longest palindrome",
+    "data_structures": ["String"],
+    "concepts": ["String Manipulation"]
+  },
+  {
+    "title": "Reverse Pairs",
+    "url": "https://leetcode.com/problems/reverse-pairs/",
+    "approach": "Modified merge sort to count reverse pairs",
+    "data_structures": ["Array"],
+    "concepts": ["Merge Sort"]
+  },
+  {
+    "title": "Kth Smallest Element in a BST",
+    "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+    "approach": "Inorder traversal to find the kth smallest element",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Tree"]
+  },
+  {
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "approach": "DFS to find the LCA",
+    "data_structures": ["Tree"],
+    "concepts": ["DFS", "Tree"]
+  },
+  {
+    "title": "Maximum Product Subarray",
+    "url": "https://leetcode.com/problems/maximum-product-subarray/",
+    "approach": "Dynamic programming to find max product subarray",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Count and Say",
+    "url": "https://leetcode.com/problems/count-and-say/",
+    "approach": "Generate the sequence iteratively",
+    "data_structures": ["String"],
+    "concepts": ["String Manipulation"]
+  },
+{
+    "title": "Maximal Square",
+    "url": "https://leetcode.com/problems/maximal-square/",
+    "approach": "Dynamic programming to find the largest square of 1s",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Word Search II",
+    "url": "https://leetcode.com/problems/word-search-ii/",
+    "approach": "Trie and backtracking to find all words",
+    "data_structures": ["Trie", "Backtracking", "HashSet"],
+    "concepts": ["Trie", "Backtracking"]
+  },
+  {
+    "title": "Substring with Concatenation of All Words",
+    "url": "https://leetcode.com/problems/substring-with-concatenation-of-all-words/",
+    "approach": "Sliding window and hash map to check substrings",
+    "data_structures": ["HashMap", "String"],
+    "concepts": ["Sliding Window", "Hashing"]
+  },
+  {
+    "title": "Find All Anagrams in a String",
+    "url": "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
+    "approach": "Sliding window and frequency array to find anagrams",
+    "data_structures": ["Array", "HashMap"],
+    "concepts": ["Sliding Window", "Hashing"]
+  },
+  {
+    "title": "Find Minimum in Rotated Sorted Array II",
+    "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/",
+    "approach": "Binary search with adjustment for duplicates",
+    "data_structures": ["Array"],
+    "concepts": ["Binary Search"]
+  },
+  {
+    "title": "Search in Rotated Sorted Array II",
+    "url": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
+    "approach": "Binary search with handling of duplicates",
+    "data_structures": ["Array"],
+    "concepts": ["Binary Search"]
+  },
+  {
+    "title": "Basic Calculator II",
+    "url": "https://leetcode.com/problems/basic-calculator-ii/",
+    "approach": "Stack to evaluate the expression",
+    "data_structures": ["Stack"],
+    "concepts": ["Stack"]
+  },
+  {
+    "title": "Basic Calculator III",
+    "url": "https://leetcode.com/problems/basic-calculator-iii/",
+    "approach": "Recursion with stack for handling parentheses",
+    "data_structures": ["Stack"],
+    "concepts": ["Stack", "Recursion"]
+  },
+  {
+    "title": "Longest Increasing Subsequence",
+    "url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+    "approach": "Dynamic programming with binary search for optimization",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming", "Binary Search"]
+  },
+  {
+    "title": "Best Time to Buy and Sell Stock IV",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
+    "approach": "Dynamic programming with state management for transactions",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Target Sum",
+    "url": "https://leetcode.com/problems/target-sum/",
+    "approach": "Dynamic programming with subset sum approach",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Combination Sum II",
+    "url": "https://leetcode.com/problems/combination-sum-ii/",
+    "approach": "Backtracking with pruning to avoid duplicate combinations",
+    "data_structures": ["Array"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Permutations II",
+    "url": "https://leetcode.com/problems/permutations-ii/",
+    "approach": "Backtracking with handling of duplicates",
+    "data_structures": ["Array"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Palindrome Linked List",
+    "url": "https://leetcode.com/problems/palindrome-linked-list/",
+    "approach": "Reverse second half of the list and compare with first half",
+    "data_structures": ["Linked List"],
+    "concepts": ["Linked List", "Two Pointer"]
+  },
+  {
+    "title": "N-Queens II",
+    "url": "https://leetcode.com/problems/n-queens-ii/",
+    "approach": "Backtracking to place queens safely on the board",
+    "data_structures": ["Array"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Kth Largest Element in an Array",
+    "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "approach": "Quickselect algorithm or heap",
+    "data_structures": ["Heap", "Array"],
+    "concepts": ["Heap", "Quickselect"]
+  },
+  {
+    "title": "Maximum Subarray",
+    "url": "https://leetcode.com/problems/maximum-subarray/",
+    "approach": "Kadane’s algorithm to find the maximum subarray sum",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Word Search",
+    "url": "https://leetcode.com/problems/word-search/",
+    "approach": "Backtracking with DFS for finding words",
+    "data_structures": ["Array"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Unique Paths II",
+    "url": "https://leetcode.com/problems/unique-paths-ii/",
+    "approach": "Dynamic programming with obstacle handling",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Jump Game II",
+    "url": "https://leetcode.com/problems/jump-game-ii/",
+    "approach": "Greedy approach with BFS-like traversal",
+    "data_structures": ["Array"],
+    "concepts": ["Greedy"]
+  },
+  {
+    "title": "Trapping Rain Water",
+    "url": "https://leetcode.com/problems/trapping-rain-water/",
+    "approach": "Two-pointer technique to calculate water trapped",
+    "data_structures": ["Array"],
+    "concepts": ["Two Pointer"]
+  },
+{
+    "title": "Subarray Sum Equals K",
+    "url": "https://leetcode.com/problems/subarray-sum-equals-k/",
+    "approach": "Use a hash map to store the prefix sum and count subarrays",
+    "data_structures": ["HashMap", "Array"],
+    "concepts": ["Hashing", "Prefix Sum"]
+  },
+  {
+    "title": "Add Two Numbers",
+    "url": "https://leetcode.com/problems/add-two-numbers/",
+    "approach": "Traverse both linked lists, add corresponding digits and carry",
+    "data_structures": ["Linked List"],
+    "concepts": ["Linked List"]
+  },
+  {
+    "title": "Find the Duplicate Number",
+    "url": "https://leetcode.com/problems/find-the-duplicate-number/",
+    "approach": "Floyd's Tortoise and Hare algorithm for cycle detection",
+    "data_structures": ["Array"],
+    "concepts": ["Cycle Detection", "Floyd's Algorithm"]
+  },
+  {
+    "title": "Find Peak Element",
+    "url": "https://leetcode.com/problems/find-peak-element/",
+    "approach": "Binary search to find peak element",
+    "data_structures": ["Array"],
+    "concepts": ["Binary Search"]
+  },
+  {
+    "title": "Count and Say",
+    "url": "https://leetcode.com/problems/count-and-say/",
+    "approach": "Iteratively build the next sequence based on the current sequence",
+    "data_structures": ["String"],
+    "concepts": ["String Manipulation"]
+  },
+  {
+    "title": "Search a 2D Matrix",
+    "url": "https://leetcode.com/problems/search-a-2d-matrix/",
+    "approach": "Binary search to treat the matrix as a flat array",
+    "data_structures": ["Array"],
+    "concepts": ["Binary Search"]
+  },
+  {
+    "title": "Combination Sum III",
+    "url": "https://leetcode.com/problems/combination-sum-iii/",
+    "approach": "Backtracking to find all combinations of k numbers summing to n",
+    "data_structures": ["Array"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Clone Graph",
+    "url": "https://leetcode.com/problems/clone-graph/",
+    "approach": "DFS or BFS to traverse and clone nodes",
+    "data_structures": ["Graph", "HashMap"],
+    "concepts": ["Graph Traversal", "DFS/BFS"]
+  },
+  {
+    "title": "Product of Array Except Self",
+    "url": "https://leetcode.com/problems/product-of-array-except-self/",
+    "approach": "Use two auxiliary arrays to store products from left and right",
+    "data_structures": ["Array"],
+    "concepts": ["Array", "Prefix Sum"]
+  },
+  {
+    "title": "Reverse Linked List",
+    "url": "https://leetcode.com/problems/reverse-linked-list/",
+    "approach": "Iterative or recursive approach to reverse the list",
+    "data_structures": ["Linked List"],
+    "concepts": ["Linked List"]
+  },
+  {
+    "title": "Permutations",
+    "url": "https://leetcode.com/problems/permutations/",
+    "approach": "Backtracking to generate all possible permutations",
+    "data_structures": ["Array"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Combinations",
+    "url": "https://leetcode.com/problems/combinations/",
+    "approach": "Backtracking to generate all possible combinations",
+    "data_structures": ["Array"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Merge Intervals",
+    "url": "https://leetcode.com/problems/merge-intervals/",
+    "approach": "Sort intervals and merge overlapping ones",
+    "data_structures": ["Array"],
+    "concepts": ["Sorting"]
+  },
+  {
+    "title": "Maximum Product Subarray",
+    "url": "https://leetcode.com/problems/maximum-product-subarray/",
+    "approach": "Dynamic programming with tracking of maximum and minimum products",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "House Robber",
+    "url": "https://leetcode.com/problems/house-robber/",
+    "approach": "Dynamic programming to decide whether to rob the current house",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Letter Combinations of a Phone Number",
+    "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+    "approach": "Backtracking to generate all possible combinations of letters",
+    "data_structures": ["String"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Maximum Depth of Binary Tree",
+    "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+    "approach": "Recursive depth-first search to find the maximum depth",
+    "data_structures": ["Binary Tree"],
+    "concepts": ["Tree", "DFS"]
+  },
+  {
+    "title": "Symmetric Tree",
+    "url": "https://leetcode.com/problems/symmetric-tree/",
+    "approach": "Use DFS or BFS to check for symmetry",
+    "data_structures": ["Binary Tree"],
+    "concepts": ["Tree", "DFS/BFS"]
+  },
+  {
+    "title": "Add Binary",
+    "url": "https://leetcode.com/problems/add-binary/",
+    "approach": "Simulate binary addition from right to left",
+    "data_structures": ["String"],
+    "concepts": ["String Manipulation"]
+  },
+  {
+    "title": "Single Number",
+    "url": "https://leetcode.com/problems/single-number/",
+    "approach": "Use XOR to find the number that appears once",
+    "data_structures": ["Array"],
+    "concepts": ["Bit Manipulation"]
+  },
+  {
+    "title": "Valid Parentheses",
+    "url": "https://leetcode.com/problems/valid-parentheses/",
+    "approach": "Use a stack to check if parentheses are balanced",
+    "data_structures": ["Stack"],
+    "concepts": ["Stack"]
+  },
+  {
+    "title": "Linked List Cycle",
+    "url": "https://leetcode.com/problems/linked-list-cycle/",
+    "approach": "Use Floyd’s cycle-finding algorithm",
+    "data_structures": ["Linked List"],
+    "concepts": ["Cycle Detection", "Floyd's Algorithm"]
+  },
+{
+    "title": "Kth Largest Element in an Array",
+    "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "approach": "Use a min-heap to store the k largest elements",
+    "data_structures": ["Heap", "Array"],
+    "concepts": ["Heap", "Sorting"]
+  },
+  {
+    "title": "Number of Islands",
+    "url": "https://leetcode.com/problems/number-of-islands/",
+    "approach": "Use DFS or BFS to explore each island",
+    "data_structures": ["Grid", "DFS/BFS"],
+    "concepts": ["Graph Traversal", "DFS/BFS"]
+  },
+  {
+    "title": "Pow(x, n)",
+    "url": "https://leetcode.com/problems/powx-n/",
+    "approach": "Use exponentiation by squaring for efficient calculation",
+    "data_structures": ["Integer"],
+    "concepts": ["Math", "Exponentiation"]
+  },
+  {
+    "title": "Flatten Binary Tree to Linked List",
+    "url": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
+    "approach": "Use preorder traversal to flatten the binary tree",
+    "data_structures": ["Binary Tree"],
+    "concepts": ["Tree", "DFS"]
+  },
+  {
+    "title": "Palindrome Partitioning",
+    "url": "https://leetcode.com/problems/palindrome-partitioning/",
+    "approach": "Backtracking to generate all palindrome partitions",
+    "data_structures": ["String"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Unique Paths",
+    "url": "https://leetcode.com/problems/unique-paths/",
+    "approach": "Dynamic programming or combinatorics",
+    "data_structures": ["Grid"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Maximum Subarray",
+    "url": "https://leetcode.com/problems/maximum-subarray/",
+    "approach": "Use Kadane's algorithm to find the maximum subarray sum",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Path Sum II",
+    "url": "https://leetcode.com/problems/path-sum-ii/",
+    "approach": "Use DFS to find all paths from root to leaf that sum to target",
+    "data_structures": ["Binary Tree"],
+    "concepts": ["Tree", "DFS"]
+  },
+  {
+    "title": "Subsets",
+    "url": "https://leetcode.com/problems/subsets/",
+    "approach": "Backtracking to generate all subsets",
+    "data_structures": ["Array"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "N-Queens",
+    "url": "https://leetcode.com/problems/n-queens/",
+    "approach": "Backtracking to place queens on the board while ensuring no conflicts",
+    "data_structures": ["Backtracking"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Jump Game II",
+    "url": "https://leetcode.com/problems/jump-game-ii/",
+    "approach": "Greedy approach or dynamic programming to find the minimum number of jumps",
+    "data_structures": ["Array"],
+    "concepts": ["Greedy", "Dynamic Programming"]
+  },
+  {
+    "title": "Binary Tree Level Order Traversal",
+    "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "approach": "Use BFS to traverse the tree level by level",
+    "data_structures": ["Binary Tree", "Queue"],
+    "concepts": ["Tree", "BFS"]
+  },
+  {
+    "title": "Spiral Matrix",
+    "url": "https://leetcode.com/problems/spiral-matrix/",
+    "approach": "Simulate the traversal of the matrix in a spiral order",
+    "data_structures": ["Matrix"],
+    "concepts": ["Simulation"]
+  },
+  {
+    "title": "Subarray Product Less Than K",
+    "url": "https://leetcode.com/problems/subarray-product-less-than-k/",
+    "approach": "Use a sliding window to find the subarrays",
+    "data_structures": ["Array"],
+    "concepts": ["Sliding Window"]
+  },
+  {
+    "title": "Word Search",
+    "url": "https://leetcode.com/problems/word-search/",
+    "approach": "Use DFS to search for words in a grid",
+    "data_structures": ["Grid"],
+    "concepts": ["Backtracking", "DFS"]
+  },
+  {
+    "title": "Sum of Two Integers",
+    "url": "https://leetcode.com/problems/sum-of-two-integers/",
+    "approach": "Use bit manipulation to compute the sum",
+    "data_structures": ["Integer"],
+    "concepts": ["Bit Manipulation"]
+  },
+  {
+    "title": "Find Minimum in Rotated Sorted Array",
+    "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+    "approach": "Use binary search to find the minimum element",
+    "data_structures": ["Array"],
+    "concepts": ["Binary Search"]
+  },
+  {
+    "title": "Sort Colors",
+    "url": "https://leetcode.com/problems/sort-colors/",
+    "approach": "Use the Dutch National Flag algorithm to sort the colors",
+    "data_structures": ["Array"],
+    "concepts": ["Sorting"]
+  },
+  {
+    "title": "Combination Sum II",
+    "url": "https://leetcode.com/problems/combination-sum-ii/",
+    "approach": "Backtracking with pruning to find all combinations of numbers summing to target",
+    "data_structures": ["Array"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Clone Binary Tree with Random Pointer",
+    "url": "https://leetcode.com/problems/clone-binary-tree-with-random-pointer/",
+    "approach": "Use a hash map to store the mapping of original and cloned nodes",
+    "data_structures": ["Binary Tree", "HashMap"],
+    "concepts": ["Graph Traversal", "Hashing"]
+  },
+  {
+    "title": "Decode Ways",
+    "url": "https://leetcode.com/problems/decode-ways/",
+    "approach": "Dynamic programming to calculate the number of ways to decode the message",
+    "data_structures": ["String"],
+    "concepts": ["Dynamic Programming"]
+  },
+{
+    "title": "Find the Duplicate Number",
+    "url": "https://leetcode.com/problems/find-the-duplicate-number/",
+    "approach": "Use Floyd's Tortoise and Hare algorithm or binary search",
+    "data_structures": ["Array"],
+    "concepts": ["Floyd's Cycle Detection", "Binary Search"]
+  },
+  {
+    "title": "Search in Rotated Sorted Array II",
+    "url": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
+    "approach": "Modified binary search to handle duplicates",
+    "data_structures": ["Array"],
+    "concepts": ["Binary Search"]
+  },
+  {
+    "title": "Container With Most Water",
+    "url": "https://leetcode.com/problems/container-with-most-water/",
+    "approach": "Two-pointer technique to maximize the area",
+    "data_structures": ["Array"],
+    "concepts": ["Two Pointer"]
+  },
+  {
+    "title": "Trapping Rain Water",
+    "url": "https://leetcode.com/problems/trapping-rain-water/",
+    "approach": "Use two pointers and calculate trapped water by comparing heights",
+    "data_structures": ["Array"],
+    "concepts": ["Two Pointer", "Dynamic Programming"]
+  },
+  {
+    "title": "Longest Consecutive Sequence",
+    "url": "https://leetcode.com/problems/longest-consecutive-sequence/",
+    "approach": "Use a hash set to find the longest sequence",
+    "data_structures": ["Hash Set"],
+    "concepts": ["Hashing"]
+  },
+  {
+    "title": "4Sum",
+    "url": "https://leetcode.com/problems/4sum/",
+    "approach": "Use sorting and two pointers to reduce complexity",
+    "data_structures": ["Array"],
+    "concepts": ["Sorting", "Two Pointer"]
+  },
+  {
+    "title": "Subarray Sum Equals K",
+    "url": "https://leetcode.com/problems/subarray-sum-equals-k/",
+    "approach": "Use a hash map to track the sum of elements",
+    "data_structures": ["HashMap", "Array"],
+    "concepts": ["Hashing"]
+  },
+  {
+    "title": "Longest Substring Without Repeating Characters",
+    "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "approach": "Use a sliding window and hash map to track characters",
+    "data_structures": ["Hash Map", "Array"],
+    "concepts": ["Sliding Window", "Hashing"]
+  },
+  {
+    "title": "Combination Sum III",
+    "url": "https://leetcode.com/problems/combination-sum-iii/",
+    "approach": "Backtracking to generate valid combinations",
+    "data_structures": ["Array"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Permutation in String",
+    "url": "https://leetcode.com/problems/permutation-in-string/",
+    "approach": "Use sliding window and character count comparison",
+    "data_structures": ["Array", "String"],
+    "concepts": ["Sliding Window", "Hashing"]
+  },
+  {
+    "title": "Insert Interval",
+    "url": "https://leetcode.com/problems/insert-interval/",
+    "approach": "Merge intervals by checking overlap",
+    "data_structures": ["Array"],
+    "concepts": ["Greedy", "Sorting"]
+  },
+  {
+    "title": "Valid Parentheses",
+    "url": "https://leetcode.com/problems/valid-parentheses/",
+    "approach": "Use stack to check for balanced parentheses",
+    "data_structures": ["Stack"],
+    "concepts": ["Stack"]
+  },
+  {
+    "title": "Number of Connected Components in an Undirected Graph",
+    "url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+    "approach": "Use DFS or BFS to count connected components",
+    "data_structures": ["Graph", "DFS/BFS"],
+    "concepts": ["Graph Traversal", "DFS/BFS"]
+  },
+  {
+    "title": "Populating Next Right Pointers in Each Node",
+    "url": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/",
+    "approach": "Use level-order traversal with a queue to connect nodes",
+    "data_structures": ["Tree", "Queue"],
+    "concepts": ["Tree", "BFS"]
+  },
+  {
+    "title": "3Sum",
+    "url": "https://leetcode.com/problems/3sum/",
+    "approach": "Sort the array and use two pointers to find triplets",
+    "data_structures": ["Array"],
+    "concepts": ["Sorting", "Two Pointer"]
+  },
+  {
+    "title": "Majority Element",
+    "url": "https://leetcode.com/problems/majority-element/",
+    "approach": "Use Boyer-Moore Voting Algorithm to find majority element",
+    "data_structures": ["Array"],
+    "concepts": ["Boyer-Moore Voting Algorithm"]
+  },
+  {
+    "title": "Minimum Path Sum",
+    "url": "https://leetcode.com/problems/minimum-path-sum/",
+    "approach": "Dynamic programming to find the minimum path sum",
+    "data_structures": ["Grid"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Rotate Image",
+    "url": "https://leetcode.com/problems/rotate-image/",
+    "approach": "First transpose the matrix and then reverse the rows",
+    "data_structures": ["Matrix"],
+    "concepts": ["Matrix Manipulation"]
+  },
+  {
+    "title": "Valid Sudoku",
+    "url": "https://leetcode.com/problems/valid-sudoku/",
+    "approach": "Use a hash set to validate rows, columns, and subgrids",
+    "data_structures": ["Matrix", "Hash Set"],
+    "concepts": ["Hashing"]
+  },
+  {
+    "title": "Palindrome Linked List",
+    "url": "https://leetcode.com/problems/palindrome-linked-list/",
+    "approach": "Reverse the second half of the list and compare",
+    "data_structures": ["Linked List"],
+    "concepts": ["Linked List"]
+  },
+  {
+    "title": "Word Break II",
+    "url": "https://leetcode.com/problems/word-break-ii/",
+    "approach": "Use dynamic programming with backtracking to find all word breaks",
+    "data_structures": ["String", "Hash Set"],
+    "concepts": ["Dynamic Programming", "Backtracking"]
+  },
+ {
+    "title": "Maximal Rectangle",
+    "url": "https://leetcode.com/problems/maximal-rectangle/",
+    "approach": "Use dynamic programming to find maximum area of rectangle",
+    "data_structures": ["Array", "Stack"],
+    "concepts": ["Dynamic Programming", "Stack"]
+  },
+  {
+    "title": "House Robber",
+    "url": "https://leetcode.com/problems/house-robber/",
+    "approach": "Use dynamic programming to calculate maximum amount robbed",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "House Robber II",
+    "url": "https://leetcode.com/problems/house-robber-ii/",
+    "approach": "Handle the circular case by considering two subproblems: one with the first house and one without it",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Word Search II",
+    "url": "https://leetcode.com/problems/word-search-ii/",
+    "approach": "Use backtracking with trie and DFS to find all words",
+    "data_structures": ["Trie", "Grid"],
+    "concepts": ["Backtracking", "Trie"]
+  },
+  {
+    "title": "Best Time to Buy and Sell Stock III",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/",
+    "approach": "Use dynamic programming to track maximum profit with two transactions",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Jump Game II",
+    "url": "https://leetcode.com/problems/jump-game-ii/",
+    "approach": "Greedy approach to minimize the number of jumps",
+    "data_structures": ["Array"],
+    "concepts": ["Greedy"]
+  },
+  {
+    "title": "Find Minimum in Rotated Sorted Array II",
+    "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/",
+    "approach": "Use binary search with special handling for duplicates",
+    "data_structures": ["Array"],
+    "concepts": ["Binary Search"]
+  },
+  {
+    "title": "Longest Substring with At Most K Distinct Characters",
+    "url": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/",
+    "approach": "Use sliding window with a hash map to count distinct characters",
+    "data_structures": ["HashMap", "String"],
+    "concepts": ["Sliding Window", "Hashing"]
+  },
+  {
+    "title": "N-Queens II",
+    "url": "https://leetcode.com/problems/n-queens-ii/",
+    "approach": "Use backtracking to count the number of valid solutions",
+    "data_structures": ["Array"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Max Points on a Line",
+    "url": "https://leetcode.com/problems/max-points-on-a-line/",
+    "approach": "Use a hash map to track the slopes of lines",
+    "data_structures": ["HashMap"],
+    "concepts": ["Geometry", "Hashing"]
+  },
+  {
+    "title": "Maximal Square",
+    "url": "https://leetcode.com/problems/maximal-square/",
+    "approach": "Use dynamic programming to find the largest square",
+    "data_structures": ["Matrix"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Regular Expression Matching",
+    "url": "https://leetcode.com/problems/regular-expression-matching/",
+    "approach": "Use dynamic programming to handle regular expressions",
+    "data_structures": ["String"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Find First and Last Position of Element in Sorted Array",
+    "url": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+    "approach": "Use binary search to find both the first and last occurrences",
+    "data_structures": ["Array"],
+    "concepts": ["Binary Search"]
+  },
+  {
+    "title": "Palindrome Partitioning",
+    "url": "https://leetcode.com/problems/palindrome-partitioning/",
+    "approach": "Use backtracking to find all palindrome partitions",
+    "data_structures": ["String"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Palindrome Partitioning II",
+    "url": "https://leetcode.com/problems/palindrome-partitioning-ii/",
+    "approach": "Use dynamic programming to minimize the number of cuts needed",
+    "data_structures": ["String"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Smallest Range Covering Elements from K Lists",
+    "url": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+    "approach": "Use a priority queue to find the smallest range",
+    "data_structures": ["Min-Heap", "Array"],
+    "concepts": ["Heap"]
+  },
+  {
+    "title": "Word Ladder II",
+    "url": "https://leetcode.com/problems/word-ladder-ii/",
+    "approach": "Use BFS to find all shortest paths from start to end",
+    "data_structures": ["Graph", "Queue"],
+    "concepts": ["BFS", "Graph Traversal"]
+  },
+  {
+    "title": "Word Ladder",
+    "url": "https://leetcode.com/problems/word-ladder/",
+    "approach": "Use BFS to find the shortest transformation sequence",
+    "data_structures": ["Graph", "Queue"],
+    "concepts": ["BFS", "Graph Traversal"]
+  },
+  {
+    "title": "Longest Palindromic Substring",
+    "url": "https://leetcode.com/problems/longest-palindromic-substring/",
+    "approach": "Use dynamic programming or expand-around-center approach",
+    "data_structures": ["String"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Jump Game",
+    "url": "https://leetcode.com/problems/jump-game/",
+    "approach": "Greedy approach to check if the end is reachable",
+    "data_structures": ["Array"],
+    "concepts": ["Greedy"]
+  },
+  {
+    "title": "Add Two Numbers",
+    "url": "https://leetcode.com/problems/add-two-numbers/",
+    "approach": "Simulate the addition process of two numbers represented by linked lists",
+    "data_structures": ["Linked List"],
+    "concepts": ["Linked List"]
+  },
+  {
+    "title": "Add Binary",
+    "url": "https://leetcode.com/problems/add-binary/",
+    "approach": "Add two binary numbers bit by bit",
+    "data_structures": ["String"],
+    "concepts": ["Bit Manipulation"]
+  },
+ {
+    "title": "Reverse Bits",
+    "url": "https://leetcode.com/problems/reverse-bits/",
+    "approach": "Use bit manipulation to reverse the bits of the given number",
+    "data_structures": ["Integer"],
+    "concepts": ["Bit Manipulation"]
+  },
+  {
+    "title": "Hamming Distance",
+    "url": "https://leetcode.com/problems/hamming-distance/",
+    "approach": "Calculate the number of differing bits between two numbers",
+    "data_structures": ["Integer"],
+    "concepts": ["Bit Manipulation"]
+  },
+  {
+    "title": "Find the Duplicate Number",
+    "url": "https://leetcode.com/problems/find-the-duplicate-number/",
+    "approach": "Use the Floyd's Tortoise and Hare algorithm to detect the duplicate",
+    "data_structures": ["Array"],
+    "concepts": ["Floyd's Cycle Detection", "Array"]
+  },
+  {
+    "title": "First Missing Positive",
+    "url": "https://leetcode.com/problems/first-missing-positive/",
+    "approach": "Use an in-place hash map-like approach to track the missing positive",
+    "data_structures": ["Array"],
+    "concepts": ["Array"]
+  },
+  {
+    "title": "Pow(x, n)",
+    "url": "https://leetcode.com/problems/powx-n/",
+    "approach": "Use binary exponentiation to calculate power in O(log n) time",
+    "data_structures": ["Integer"],
+    "concepts": ["Mathematics", "Binary Exponentiation"]
+  },
+  {
+    "title": "Valid Parentheses",
+    "url": "https://leetcode.com/problems/valid-parentheses/",
+    "approach": "Use stack to check for balanced parentheses",
+    "data_structures": ["Stack"],
+    "concepts": ["Stack"]
+  },
+  {
+    "title": "Valid Anagram",
+    "url": "https://leetcode.com/problems/valid-anagram/",
+    "approach": "Sort the strings or use a hash map to count character frequencies",
+    "data_structures": ["HashMap", "String"],
+    "concepts": ["Hashing", "String"]
+  },
+  {
+    "title": "Longest Common Prefix",
+    "url": "https://leetcode.com/problems/longest-common-prefix/",
+    "approach": "Use horizontal scanning or trie-based solution",
+    "data_structures": ["String"],
+    "concepts": ["String"]
+  },
+  {
+    "title": "String to Integer (atoi)",
+    "url": "https://leetcode.com/problems/string-to-integer-atoi/",
+    "approach": "Parse the string character by character and handle edge cases",
+    "data_structures": ["String"],
+    "concepts": ["String Parsing"]
+  },
+  {
+    "title": "3Sum",
+    "url": "https://leetcode.com/problems/3sum/",
+    "approach": "Sort the array and use two pointers to find unique triplets",
+    "data_structures": ["Array"],
+    "concepts": ["Sorting", "Two Pointers"]
+  },
+  {
+    "title": "Merge Intervals",
+    "url": "https://leetcode.com/problems/merge-intervals/",
+    "approach": "Sort the intervals and merge overlapping ones",
+    "data_structures": ["Array"],
+    "concepts": ["Sorting"]
+  },
+  {
+    "title": "Remove Duplicates from Sorted Array",
+    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+    "approach": "Use two pointers to move unique elements to the front",
+    "data_structures": ["Array"],
+    "concepts": ["Two Pointers"]
+  },
+  {
+    "title": "Container With Most Water",
+    "url": "https://leetcode.com/problems/container-with-most-water/",
+    "approach": "Use two pointers to find the max area while reducing the distance between them",
+    "data_structures": ["Array"],
+    "concepts": ["Two Pointers"]
+  },
+  {
+    "title": "Rotate Image",
+    "url": "https://leetcode.com/problems/rotate-image/",
+    "approach": "First transpose the matrix, then reverse each row",
+    "data_structures": ["Matrix"],
+    "concepts": ["Matrix"]
+  },
+  {
+    "title": "Search Insert Position",
+    "url": "https://leetcode.com/problems/search-insert-position/",
+    "approach": "Use binary search to find the correct insertion index",
+    "data_structures": ["Array"],
+    "concepts": ["Binary Search"]
+  },
+  {
+    "title": "Group Anagrams",
+    "url": "https://leetcode.com/problems/group-anagrams/",
+    "approach": "Use a hash map to group anagrams by sorting or character count",
+    "data_structures": ["HashMap", "String"],
+    "concepts": ["Hashing", "String"]
+  },
+  {
+    "title": "Plus One",
+    "url": "https://leetcode.com/problems/plus-one/",
+    "approach": "Simulate the addition operation by iterating from the last digit",
+    "data_structures": ["Array"],
+    "concepts": ["Array"]
+  },
+  {
+    "title": "Set Matrix Zeroes",
+    "url": "https://leetcode.com/problems/set-matrix-zeroes/",
+    "approach": "Use the first row and first column to mark rows and columns to be zeroed",
+    "data_structures": ["Matrix"],
+    "concepts": ["Matrix"]
+  },
+  {
+    "title": "Search a 2D Matrix",
+    "url": "https://leetcode.com/problems/search-a-2d-matrix/",
+    "approach": "Perform binary search on the matrix",
+    "data_structures": ["Matrix"],
+    "concepts": ["Binary Search"]
+  },
+  {
+    "title": "Power of Two",
+    "url": "https://leetcode.com/problems/power-of-two/",
+    "approach": "Check if the number is greater than 0 and if it's a power of two using bit manipulation",
+    "data_structures": ["Integer"],
+    "concepts": ["Bit Manipulation"]
+  },
+  {
+    "title": "Minimum Path Sum",
+    "url": "https://leetcode.com/problems/minimum-path-sum/",
+    "approach": "Use dynamic programming to calculate the minimum path sum from top-left to bottom-right",
+    "data_structures": ["Matrix"],
+    "concepts": ["Dynamic Programming"]
+  },
+ {
+    "title": "Subsets",
+    "url": "https://leetcode.com/problems/subsets/",
+    "approach": "Use backtracking to generate all subsets",
+    "data_structures": ["Array"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Combination Sum",
+    "url": "https://leetcode.com/problems/combination-sum/",
+    "approach": "Use backtracking to find all combinations that sum up to the target",
+    "data_structures": ["Array"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Letter Combinations of a Phone Number",
+    "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+    "approach": "Use backtracking to generate letter combinations from digits",
+    "data_structures": ["Array"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Permutations",
+    "url": "https://leetcode.com/problems/permutations/",
+    "approach": "Use backtracking to generate all permutations of a list",
+    "data_structures": ["Array"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Permutations II",
+    "url": "https://leetcode.com/problems/permutations-ii/",
+    "approach": "Use backtracking with pruning to generate unique permutations",
+    "data_structures": ["Array"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Combination Sum II",
+    "url": "https://leetcode.com/problems/combination-sum-ii/",
+    "approach": "Use backtracking to generate all unique combinations that sum to the target",
+    "data_structures": ["Array"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "N-Queens",
+    "url": "https://leetcode.com/problems/n-queens/",
+    "approach": "Use backtracking to place queens on a chessboard such that no two queens attack each other",
+    "data_structures": ["Matrix"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "N-Queens II",
+    "url": "https://leetcode.com/problems/n-queens-ii/",
+    "approach": "Use backtracking to count all possible solutions for the N-Queens problem",
+    "data_structures": ["Matrix"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Sudoku Solver",
+    "url": "https://leetcode.com/problems/sudoku-solver/",
+    "approach": "Use backtracking to solve the Sudoku puzzle",
+    "data_structures": ["Matrix"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Word Search",
+    "url": "https://leetcode.com/problems/word-search/",
+    "approach": "Use backtracking to search for words in the grid",
+    "data_structures": ["Matrix"],
+    "concepts": ["Backtracking"]
+  },
+  {
+    "title": "Word Search II",
+    "url": "https://leetcode.com/problems/word-search-ii/",
+    "approach": "Use backtracking with Trie to search for multiple words in the grid",
+    "data_structures": ["Matrix", "Trie"],
+    "concepts": ["Backtracking", "Trie"]
+  },
+  {
+    "title": "Unique Paths",
+    "url": "https://leetcode.com/problems/unique-paths/",
+    "approach": "Use dynamic programming to find the number of unique paths in a grid",
+    "data_structures": ["Matrix"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Unique Paths II",
+    "url": "https://leetcode.com/problems/unique-paths-ii/",
+    "approach": "Use dynamic programming to find the number of unique paths considering obstacles",
+    "data_structures": ["Matrix"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Jump Game",
+    "url": "https://leetcode.com/problems/jump-game/",
+    "approach": "Use greedy approach or dynamic programming to determine if you can reach the last index",
+    "data_structures": ["Array"],
+    "concepts": ["Greedy", "Dynamic Programming"]
+  },
+  {
+    "title": "Jump Game II",
+    "url": "https://leetcode.com/problems/jump-game-ii/",
+    "approach": "Use greedy approach to find the minimum number of jumps to reach the end",
+    "data_structures": ["Array"],
+    "concepts": ["Greedy"]
+  },
+  {
+    "title": "Minimum Path Sum",
+    "url": "https://leetcode.com/problems/minimum-path-sum/",
+    "approach": "Use dynamic programming to find the minimum path sum in a grid",
+    "data_structures": ["Matrix"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Coin Change",
+    "url": "https://leetcode.com/problems/coin-change/",
+    "approach": "Use dynamic programming to find the minimum number of coins needed to make up a target amount",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Coin Change II",
+    "url": "https://leetcode.com/problems/coin-change-ii/",
+    "approach": "Use dynamic programming to find the number of ways to make change for a target amount",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Target Sum",
+    "url": "https://leetcode.com/problems/target-sum/",
+    "approach": "Use dynamic programming or recursion with memoization to solve the target sum problem",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming", "Backtracking"]
+  },
+  {
+    "title": "Decode Ways",
+    "url": "https://leetcode.com/problems/decode-ways/",
+    "approach": "Use dynamic programming to count the number of ways to decode a message",
+    "data_structures": ["String"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Decode Ways II",
+    "url": "https://leetcode.com/problems/decode-ways-ii/",
+    "approach": "Use dynamic programming to solve for the number of decoding ways with a twist on the problem",
+    "data_structures": ["String"],
+    "concepts": ["Dynamic Programming"]
+  },
+ {
+    "title": "House Robber",
+    "url": "https://leetcode.com/problems/house-robber/",
+    "approach": "Use dynamic programming to solve the problem of maximizing the amount of money robbed",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "House Robber II",
+    "url": "https://leetcode.com/problems/house-robber-ii/",
+    "approach": "Use dynamic programming with circular house arrangement handling",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Best Time to Buy and Sell Stock",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "approach": "Use dynamic programming to track the maximum profit from buying and selling stock",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Best Time to Buy and Sell Stock II",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+    "approach": "Use greedy approach to calculate maximum profit by buying and selling multiple times",
+    "data_structures": ["Array"],
+    "concepts": ["Greedy"]
+  },
+  {
+    "title": "Best Time to Buy and Sell Stock III",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/",
+    "approach": "Use dynamic programming to solve for two transactions in the stock problem",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Best Time to Buy and Sell Stock IV",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
+    "approach": "Use dynamic programming to solve for multiple transactions of stock buying and selling",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Longest Increasing Subsequence",
+    "url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+    "approach": "Use dynamic programming or binary search to find the longest increasing subsequence",
+    "data_structures": ["Array"],
+    "concepts": ["Dynamic Programming", "Binary Search"]
+  },
+  {
+    "title": "Longest Common Subsequence",
+    "url": "https://leetcode.com/problems/longest-common-subsequence/",
+    "approach": "Use dynamic programming to find the longest common subsequence between two strings",
+    "data_structures": ["String", "Matrix"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Edit Distance",
+    "url": "https://leetcode.com/problems/edit-distance/",
+    "approach": "Use dynamic programming to find the minimum number of operations to convert one string to another",
+    "data_structures": ["String", "Matrix"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Palindrome Substrings",
+    "url": "https://leetcode.com/problems/palindromic-substrings/",
+    "approach": "Use dynamic programming or expand-around-center to find palindromic substrings",
+    "data_structures": ["String"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Unique Binary Search Trees",
+    "url": "https://leetcode.com/problems/unique-binary-search-trees/",
+    "approach": "Use dynamic programming to count the number of unique binary search trees",
+    "data_structures": ["Tree", "Matrix"],
+    "concepts": ["Dynamic Programming"]
+  },
+  {
+    "title": "Unique Binary Search Trees II",
+    "url": "https://leetcode.com/problems/unique-binary-search-trees-ii/",
+    "approach": "Use dynamic programming and recursion to generate all unique BSTs",
+    "data_structures": ["Tree"],
+    "concepts": ["Dynamic Programming", "Recursion"]
+  },
+  {
+    "title": "Minimum Window Substring",
+    "url": "https://leetcode.com/problems/minimum-window-substring/",
+    "approach": "Use sliding window technique to find the smallest substring containing all characters of a given string",
+    "data_structures": ["String", "Hash Map"],
+    "concepts": ["Sliding Window"]
+  },
+  {
+    "title": "Sliding Window Maximum",
+    "url": "https://leetcode.com/problems/sliding-window-maximum/",
+    "approach": "Use deque to find the maximum value in each sliding window of size k",
+    "data_structures": ["Deque", "Array"],
+    "concepts": ["Sliding Window"]
+  },
+  {
+    "title": "Longest Substring Without Repeating Characters",
+    "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "approach": "Use sliding window and hash map to find the length of the longest substring without repeating characters",
+    "data_structures": ["String", "Hash Map"],
+    "concepts": ["Sliding Window"]
+  },
+  {
+    "title": "Minimum Size Subarray Sum",
+    "url": "https://leetcode.com/problems/minimum-size-subarray-sum/",
+    "approach": "Use sliding window to find the minimum length of a subarray with sum greater than or equal to the target",
+    "data_structures": ["Array"],
+    "concepts": ["Sliding Window"]
+  },
+  {
+    "title": "Group Anagrams",
+    "url": "https://leetcode.com/problems/group-anagrams/",
+    "approach": "Use hash map to group anagrams together",
+    "data_structures": ["String", "Hash Map"],
+    "concepts": ["Hashing"]
+  },
+  {
+    "title": "Sort Colors",
+    "url": "https://leetcode.com/problems/sort-colors/",
+    "approach": "Use the Dutch National Flag algorithm to sort colors in linear time",
+    "data_structures": ["Array"],
+    "concepts": ["Two Pointers"]
+  },
+  {
+    "title": "Search in Rotated Sorted Array",
+    "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "approach": "Use binary search to find the target in a rotated sorted array",
+    "data_structures": ["Array"],
+    "concepts": ["Binary Search"]
+  },
+  {
+    "title": "Search in Rotated Sorted Array II",
+    "url": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
+    "approach": "Use binary search to find the target in a rotated sorted array with duplicates",
+    "data_structures": ["Array"],
+    "concepts": ["Binary Search"]
+  },
+  {
+    "title": "Find Minimum in Rotated Sorted Array",
+    "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+    "approach": "Use binary search to find the minimum element in a rotated sorted array",
+    "data_structures": ["Array"],
+    "concepts": ["Binary Search"]
+  },
+  {
+    "title": "Find Peak Element",
+    "url": "https://leetcode.com/problems/find-peak-element/",
+    "approach": "Use binary search to find a peak element in the array",
+    "data_structures": ["Array"],
+    "concepts": ["Binary Search"]
+  }
+]
+
+
+
+
