@@ -25,7 +25,7 @@ const handleResumeUpload = async (e) => {
   const formData = new FormData();
   formData.append('file', file);
 
-  const res = await fetch('http://127.0.0.1:8000/upload_resume/', {
+  const res = await fetch('https://sharjinag-ai_learning.hf.space/upload_resume/', {
     method: 'POST',
     body: formData
   });
@@ -54,7 +54,7 @@ const startInterview = async () => {
     console.log(`${key}: ${value}`);
   }
 
-  const res = await fetch('http://127.0.0.1:8000/start_interview/', {
+  const res = await fetch('https://sharjinag-ai_learning.hf.space/start_interview/', {
     method: 'POST',
     body: formData
   });
@@ -114,7 +114,7 @@ const startInterview = async () => {
       setRecognizing(false);
 
       // Send response to backend
-      const res = await fetch('http://127.0.0.1:8000/continue_interview/', {
+      const res = await fetch('https://sharjinag-ai_learning.hf.space/continue_interview/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -134,7 +134,7 @@ const startInterview = async () => {
     const formData = new FormData();
     formData.append('session_id', sessionId);
 
-    const res = await fetch('http://127.0.0.1:8000/end_interview/', {
+    const res = await fetch('https://sharjinag-ai_learning.hf.space/end_interview/', {
       method: 'POST',
       body: formData
     });
