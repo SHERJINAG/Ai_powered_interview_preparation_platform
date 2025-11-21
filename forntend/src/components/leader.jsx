@@ -4,7 +4,7 @@ const Leaderboard = () => {
   const [leaderboard, setLeaderboard] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8000/api/leaderboard")
+    fetch("https://sherjinag-ai-learning.hf.space/leaderboard")
       .then(response => response.json())
       .then(data => {
         const withPosition = data.map((item, index) => ({
