@@ -47,7 +47,7 @@ function GDPage() {
 
   const startGD = async () => {
     try {
-      await axios.post("https://sharjinag-ai_learning.hf.space/start", { topic: selectedTopic });
+      await axios.post("https://sherjinag-ai-learning.hf.space/start", { topic: selectedTopic });
       setTopic(selectedTopic);
       setGdStarted(true);
       startRaiseHandTimer();
@@ -137,7 +137,7 @@ const stopListeningAndSend = async () => {
   setUserIsSpeaking(false); // Mark user done speaking
 
   if (text) {
-    const res = await axios.post("https://sharjinag-ai_learning.hf.space/speak", { text });
+    const res = await axios.post("https://sherjinag-ai-learning.hf.space/speak", { text });
     const msg = { speaker: "You", message: text, score: res.data.score };
     setChat((prev) => [...prev, msg]);
     setCurrentSpeaker("You");
@@ -154,7 +154,7 @@ const stopListeningAndSend = async () => {
 
   const handleAiSpeak = async () => {
     try {
-      const res = await axios.get("https://sharjinag-ai_learning.hf.space/ai_speak");
+      const res = await axios.get("https://sherjinag-ai-learning.hf.space/ai_speak");
       const { name, response, score } = res.data;
       setCurrentSpeaker(name);
       setLastSpeaker(name);
@@ -171,7 +171,7 @@ const stopListeningAndSend = async () => {
 
   const endGd = async () => {
     try {
-      const res = await axios.get("https://sharjinag-ai_learning.hf.space/end");
+      const res = await axios.get("https://sherjinag-ai-learning.hf.space/end");
       setFinalScores(res.data.final_scores);
       setFeedback(res.data.feedback);
       setGdEnded(true);
