@@ -17,7 +17,7 @@ const DiscussionForumsPage = () => {
 
   const fetchQuestions = async () => {
     try {
-      const response = await fetch("http://localhost:8000/api/questions");
+      const response = await fetch("https://sherjinag-ai-learning.hf.space/api/questions");
       const data = await response.json();
       setQuestions(data);
     } catch (err) {
@@ -34,7 +34,7 @@ const DiscussionForumsPage = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:8000/api/questions", {
+      const response = await fetch("https://sherjinag-ai-learning.hf.space/api/questions", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question: newQuestion, email }), // Changed 'content' to 'question'
@@ -77,7 +77,7 @@ const DiscussionForumsPage = () => {
 
     try {
       const response = await fetch(
-        `http://localhost:8000/api/questions/${questionId}/answers`,
+        `https://sherjinag-ai-learning.hf.space/api/questions/${questionId}/answers`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
