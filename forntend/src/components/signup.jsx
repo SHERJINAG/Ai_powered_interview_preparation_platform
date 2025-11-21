@@ -24,7 +24,7 @@ const SignUpPage = () => {
     }
 
     try {
-      const response = await axios.post('http://localhost:8000/signup/', {
+      const response = await axios.post('https://sharjinag-ai_learning.hf.space/signup/', {
         full_name: fullName,
         email,
         phone,
