@@ -49,7 +49,7 @@ const InteractiveQuizzesPage = () => {
 
     try {
       // POST request without token, only email
-      await axios.post("http://localhost:8000/api/quiz/save-result", userData);
+      await axios.post("https://sherjinag-ai-learning.hf.space/api/quiz/save-result", userData);
     } catch (error) {
       console.error("Error submitting results:", error);
       if (error.response?.status === 403) {
