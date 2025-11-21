@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 const SavedResourcesPage = () => {
   const navigate = useNavigate();
-  const apiUrl =  "http://localhost:8000";
+  const apiUrl =  "https://sherjinag-ai-learning.hf.space";
 
   return (
     <div className="container">
