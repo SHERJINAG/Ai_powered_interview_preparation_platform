@@ -11,7 +11,7 @@ const LoginPage = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
 
-    fetch("https://sharjinag-ai_learning.hf.space/login/", {
+    fetch("https://sherjinag-ai-learning.hf.space/login/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
