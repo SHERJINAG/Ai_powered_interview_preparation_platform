@@ -75,7 +75,7 @@ const Dashboard = () => {
     return;
   }
 
-  fetch(`http://localhost:8000/profile/${userEmail}`)
+  fetch(`https://sherjinag-ai-learning.hf.space/profile/${userEmail}`)
     .then(res => {
       if (!res.ok) throw new Error("Failed to fetch profile");
       return res.json();
