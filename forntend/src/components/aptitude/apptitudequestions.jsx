@@ -116,7 +116,7 @@ function App() {
 
   const startQuiz = async () => {
     try {
-      const response = await axios.post('https://sherjinag-ai-learning.hf.space/random', { level });
+      const response = await axios.post('https://sherjinag-ai-learning.hf.space/questions/random', { level });
       setQuizData(response.data); // includes session_id and questions
     } catch (error) {
       console.error("Error fetching quiz:", error);
