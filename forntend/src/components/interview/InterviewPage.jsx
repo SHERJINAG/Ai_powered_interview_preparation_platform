@@ -18,8 +18,8 @@ export default function InterviewApp() {
     const form = new FormData();
     form.append('file', file);
     try {
-      await axios.post('https://sharjinag-ai_learning.hf.space/upload-resume', form);
-      const res = await axios.get('https://sharjinag-ai_learning.hf.space/get-resume-info');
+      await axios.post('https://sherjinag-ai-learning.hf.space/upload-resume', form);
+      const res = await axios.get('https://sherjinag-ai-learning.hf.space/get-resume-info');
       setData(res.data);
       setStarted(false);
       setQuestion('');
@@ -35,7 +35,7 @@ export default function InterviewApp() {
 
   const handleStartInterview = async () => {
     try {
-      const res = await axios.post('https://sharjinag-ai_learning.hf.space/start-interview', {
+      const res = await axios.post('https://sherjinag-ai-learning.hf.space/start-interview', {
         Name: data?.Name,
         Email: data?.Email,
         Phone: data?.Phone,
@@ -56,7 +56,7 @@ const handleSubmitAnswer = async () => {
   if (!answer.trim()) return;
 
   try {
-    const res = await axios.post('https://sharjinag-ai_learning.hf.space/next-question', {
+    const res = await axios.post('https://sherjinag-ai-learning.hf.space/next-question', {
       answer,
       prev_question: question
     });
@@ -87,7 +87,7 @@ const handleSubmitAnswer = async () => {
 
   const endInterview = async () => {
     try {
-      const res = await axios.get('https://sharjinag-ai_learning.hf.space/get-interview-feedback');
+      const res = await axios.get('https://sherjinag-ai-learning.hf.space/get-interview-feedback');
       setFinal(res.data);
     } catch (err) {
       console.error(err);
