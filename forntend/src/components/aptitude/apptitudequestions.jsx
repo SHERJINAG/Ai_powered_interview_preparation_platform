@@ -48,7 +48,7 @@ function QuizPage({ quizData, onSubmit }) {
     };
 
     try {
-      const response = await axios.post('http://localhost:8000/submit', payload);
+      const response = await axios.post('https://sherjinag-ai-learning.hf.space/submit', payload);
       onSubmit(response.data);
     } catch (error) {
       console.error("Submission failed:", error);
@@ -116,7 +116,7 @@ function App() {
 
   const startQuiz = async () => {
     try {
-      const response = await axios.post('http://localhost:8000/questions/random', { level });
+      const response = await axios.post('https://sherjinag-ai-learning.hf.space/random', { level });
       setQuizData(response.data); // includes session_id and questions
     } catch (error) {
       console.error("Error fetching quiz:", error);
