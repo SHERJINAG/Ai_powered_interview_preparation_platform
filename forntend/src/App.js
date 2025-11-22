@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Routes, Route } from 'react-router-dom';
 import Home from './components/home';
 import Login from './components/login';
 import Signup from './components/signup';
@@ -190,7 +190,7 @@ import DirectSpeechGame from"./components/english/direct";
 const App = () => {
 
   return (
-  <Router>
+  <>
       <Routes>
 <Route path="/" element={<Home />} />
         <Route path="/dashboard" element={<Dashboard />} />
@@ -386,7 +386,7 @@ const App = () => {
 
       {/* Global chatbot */}
       <Chatbot />
-        </Router>
+        </>
   );
 };
 
