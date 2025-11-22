@@ -190,7 +190,7 @@ import DirectSpeechGame from"./components/english/direct";
 const App = () => {
 
   return (
-    <Router>
+  
       <Routes>
 <Route path="/" element={<Home />} />
         <Route path="/dashboard" element={<Dashboard />} />
@@ -386,7 +386,7 @@ const App = () => {
 
       {/* Global chatbot */}
       <Chatbot />
-    </Router>
+   
   );
 };
 
