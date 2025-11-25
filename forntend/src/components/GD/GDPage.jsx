@@ -11,6 +11,8 @@ const participants = [
   { name: "Ravi" }
 ];
 
+
+
 const TOPIC_LIST = [
   "Impact of AI on jobs",
   "Climate change is real",
@@ -41,6 +43,9 @@ function GDPage() {
   const [listening, setListening] = useState(false);
   const [transcript, setTranscript] = useState("");
   const [isAiSpeaking, setIsAiSpeaking] = useState(false);
+const [textInput, setTextInput] = useState("");
+const [showTextBox, setShowTextBox] = useState(false);
+
 
   // useRef to persist recognition instance
   const recognitionRef = useRef(null);
@@ -151,6 +156,26 @@ const stopListeningAndSend = async () => {
   }
 };
 
+const sendTypedMessage = async () => {
+  const text = textInput.trim();
+  if (!text) return;
+
+  setShowTextBox(false);
+  setTextInput("");
+  setUserIsSpeaking(false);
+
+  const res = await axios.post("https://sherjinag-ai-learning.hf.space/speak", { text });
+
+  const msg = { speaker: "You", message: text, score: res.data.score };
+  setChat((prev) => [...prev, msg]);
+  setCurrentSpeaker("You");
+  setLastSpeaker("You");
+
+  setTimeout(() => {
+    setCurrentSpeaker(null);
+    triggerRaiseHandWindow();
+  }, SPEAKING_GAP);
+};
 
   const handleAiSpeak = async () => {
     try {
@@ -249,21 +274,45 @@ const stopListeningAndSend = async () => {
                     </div>
                     <b>{p.name}</b>
                     {p.name === "You" && canRaiseHand && showOptions && (
-                      <button
-                        onClick={handleUserRaiseHand}
-                        style={{
-                          marginTop: 10,
-                          padding: 6,
-                          backgroundColor: "#34A853",
-                          color: "white",
-                          border: "none",
-                          borderRadius: 4,
-                          cursor: "pointer"
-                        }}
-                      >
-                        ✋ Raise Hand
-                      </button>
-                    )}
+  <div style={{ marginTop: 10 }}>
+    <button
+      onClick={handleUserRaiseHand}
+      style={{
+        padding: 6,
+        backgroundColor: "#34A853",
+        color: "white",
+        border: "none",
+        borderRadius: 4,
+        cursor: "pointer",
+        marginBottom: 6,
+        width: "100%"
+      }}
+    >
+      🎤 Speak (Voice)
+    </button>
+
+    <button
+      onClick={() => {
+        setShowTextBox(true);
+        setCanRaiseHand(false);
+        setShowOptions(false);
+        setUserIsSpeaking(true);
+      }}
+      style={{
+        padding: 6,
+        backgroundColor: "#4285F4",
+        color: "white",
+        border: "none",
+        borderRadius: 4,
+        cursor: "pointer",
+        width: "100%"
+      }}
+    >
+      ✍ Type Response
+    </button>
+  </div>
+)}
+
                   </div>
                 ))}
               </div>
@@ -297,6 +346,40 @@ const stopListeningAndSend = async () => {
                   </button>
                 </div>
               )}
+{showTextBox && (
+  <div style={{ textAlign: "center", marginTop: 20 }}>
+    <textarea
+      value={textInput}
+      onChange={(e) => setTextInput(e.target.value)}
+      rows={4}
+      style={{
+        width: "90%",
+        padding: 10,
+        borderRadius: 6,
+        border: "1px solid #ccc"
+      }}
+      placeholder="Type your response..."
+    ></textarea>
+
+    <br />
+
+    <button
+      onClick={sendTypedMessage}
+      style={{
+        marginTop: 10,
+        padding: 8,
+        backgroundColor: "#34A853",
+        color: "#fff",
+        border: "none",
+        borderRadius: 5,
+        cursor: "pointer"
+      }}
+    >
+      📤 Send Response
+    </button>
+  </div>
+)}
+
 
               <div
                 style={{
@@ -314,6 +397,7 @@ const stopListeningAndSend = async () => {
                   </div>
                 ))}
               </div>
+
 
               <div style={{ textAlign: "center", marginTop: 30 }}>
                 <button
