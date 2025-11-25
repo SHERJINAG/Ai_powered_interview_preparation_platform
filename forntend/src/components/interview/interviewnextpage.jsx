@@ -11,6 +11,9 @@ const App = () => {
   const [userAnswer, setUserAnswer] = useState('');
   const [recognizing, setRecognizing] = useState(false);
   const [feedback, setFeedback] = useState(null);
+const [mode, setMode] = useState('voice'); 
+const [interviewEnded, setInterviewEnded] = useState(false);
+
 
   const roles = [
     'Software Engineer', 'Frontend Developer', 'Backend Developer',
@@ -130,19 +133,40 @@ const startInterview = async () => {
     }
   };
 
-  const endInterview = async () => {
-    const formData = new FormData();
-    formData.append('session_id', sessionId);
+const endInterview = async () => {
+  const formData = new FormData();
+  formData.append('session_id', sessionId);
 
-    const res = await fetch('https://sherjinag-ai-learning.hf.space/end_interview/', {
-      method: 'POST',
-      body: formData
-    });
+  const res = await fetch('https://sherjinag-ai-learning.hf.space/end_interview/', {
+    method: 'POST',
+    body: formData
+  });
 
-    const data = await res.json();
-    setFeedback(data);
-    speak(`Your interview rating is ${data.rating}.`);
-  };
+  const data = await res.json();
+  setFeedback(data);
+  speak(`Your interview rating is ${data.rating}.`);
+
+  setInterviewEnded(true); // 👉 mark interview as ended
+};
+
+const submitTextAnswer = async () => {
+  if (!userAnswer.trim()) return alert("Write an answer first!");
+
+  const res = await fetch('https://sherjinag-ai-learning.hf.space/continue_interview/', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      session_id: sessionId,
+      user_response: userAnswer
+    })
+  });
+
+  const data = await res.json();
+  setQuestion(data.question);
+  setUserAnswer('');
+  speak(data.question);   // Optional
+};
+
 
   return (
     <div className="container">
@@ -156,6 +180,11 @@ const startInterview = async () => {
           <select value={role} onChange={(e) => setRole(e.target.value)}>
             {roles.map((r, idx) => <option key={idx} value={r}>{r}</option>)}
           </select>
+<label>Select Mode:</label>
+<select value={mode} onChange={(e) => setMode(e.target.value)}>
+  <option value="voice">🎤 Voice Interview</option>
+  <option value="text">⌨ Text Interview</option>
+</select>
 
           {resume && role && (
             <button onClick={startInterview}>Start Interview</button>
@@ -163,7 +192,7 @@ const startInterview = async () => {
         </>
       )}
 
-      {page === 'interview' && (
+      {page === 'interview' && !interviewEnded && (
         <>
           <h2>Welcome {name}</h2>
           <p><strong>Interviewing for:</strong> {role}</p>
@@ -172,18 +201,33 @@ const startInterview = async () => {
           <h3>Question:</h3>
           <p>{question}</p>
 
-         <button onClick={recognizing ? stopListening : startListening}>
-  {recognizing ? '🛑 Stop Answering' : '🎤 Start Answering'}
-</button>
+        {mode === 'voice' && (
+  <>
+    <button onClick={recognizing ? stopListening : startListening}>
+      {recognizing ? '🛑 Stop Answering' : '🎤 Start Answering'}
+    </button>
+    <p><strong>Speaking:</strong> {userAnswer}</p>
+ <button onClick={submitTextAnswer}>Submit Answer</button>
+  </>
+)}
 
+{mode === 'text' && (
+  <>
+    <textarea
+      value={userAnswer}
+      onChange={(e) => setUserAnswer(e.target.value)}
+      placeholder="Type your answer..."
+      style={{ width: "100%", height: "100px", marginTop: "10px" }}
+    />
+    <button onClick={submitTextAnswer}>Submit Answer</button>
+  </>
+)}
+<button onClick={endInterview}>End Interview</button>
 
-          <p><strong>Speaking:</strong> {userAnswer}</p>
-
-          <button onClick={endInterview}>End Interview</button>
         </>
       )}
 
-      {feedback && (
+      {interviewEnded && feedback && (
         <div className="feedback-box">
           <h3>Feedback:</h3>
           <p><strong>Rating:</strong> {feedback.rating}</p>
